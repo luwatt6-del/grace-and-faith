@@ -1,0 +1,92 @@
+/* Global site styling */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #faf5ff;
+  color: #3b0b59;
+}
+
+a {
+  color: #4b0d66;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: white;
+  border-bottom: 1px solid #e6d7f5;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-logo {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.mobile-menu-icon {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  background: white;
+  padding: 20px;
+  border-top: 1px solid #e6d7f5;
+}
+
+.mobile-nav a {
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+
+/* Responsive Navbar */
+@media (max-width: 800px) {
+  .nav-links {
+    display: none;
+  }
+  .mobile-menu-icon {
+    display: block;
+  }
+}
+
+/* FOOTER */
+footer {
+  background: #2d0740;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+footer a {
+  color: #e0b3ff;
+}
+
+footer a:hover {
+  color: white;
+}
