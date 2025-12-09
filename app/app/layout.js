@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Grace & Faith Ministries",
-  description: "Strengthening believers in the Word of God.",
+  description: "Empowering lives through the Word of God.",
 };
 
 export default function RootLayout({ children }) {
@@ -10,3 +10,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
