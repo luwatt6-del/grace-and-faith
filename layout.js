@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Grace & Faith",
-  description: "A gentle space for faith, grace, and weekly reflection.",
+  title: "Faith & Grace Ministry",
+  description: "Encouraging hearts, renewing spirits, and sharing God’s love.",
 };
 
 export default function RootLayout({ children }) {
@@ -9,9 +9,9 @@ export default function RootLayout({ children }) {
       <body
         style={{
           margin: 0,
-          fontFamily: "system-ui, -apple-system, BlinkMacSystemFont",
+          fontFamily: "Georgia, serif",
           backgroundColor: "#faf9f7",
-          color: "#2d2d2d",
+          color: "#333",
         }}
       >
         {children}
@@ -19,3 +19,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
