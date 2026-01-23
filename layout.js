@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Grace & Faith Ministries",
-  description: "A place of hope, devotion, and spiritual reflection",
+  title: "Grace & Faith",
+  description: "A quiet space for faith, hope, and grace.",
 };
 
 export default function RootLayout({ children }) {
