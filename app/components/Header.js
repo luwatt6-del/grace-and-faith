@@ -1,8 +1,8 @@
-export default function Footer() {
+export default function Header() {
   return (
-    <footer className="w-full bg-purple-900 text-gold-400 p-6 mt-16 text-center">
-      <p>© 2025 Grace & Faith Ministries, Bridgetown, Barbados</p>
-      <p>Email: graceandfaithministrys@yahoo.com</p>
-    </footer>
+    <header style={{ padding: "1rem", borderBottom: "1px solid #ddd" }}>
+      <h1>Grace & Faith Ministries</h1>
+    </header>
   );
 }
+
