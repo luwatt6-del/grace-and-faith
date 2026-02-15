@@ -1,8 +1,15 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
-    <header style={{ padding: "1rem", borderBottom: "1px solid #ddd" }}>
+    <header>
       <h1>Grace & Faith Ministries</h1>
+      <nav>
+        <Link href="/">Home</Link> |{" "}
+        <Link href="/about">About</Link>
+      </nav>
     </header>
   );
 }
+
 
