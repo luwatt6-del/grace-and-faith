@@ -6,10 +6,12 @@ export default function Header() {
       <h1>Grace & Faith Ministries</h1>
       <nav>
         <Link href="/">Home</Link> |{" "}
-        <Link href="/about">About</Link>
+        <Link href="/about">About</Link> |{" "}
+        <Link href="/newsletter">Newsletter</Link>
       </nav>
     </header>
   );
 }
+
 
 
