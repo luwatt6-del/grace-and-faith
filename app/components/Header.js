@@ -7,11 +7,10 @@ export default function Header() {
       <nav>
         <Link href="/">Home</Link> |{" "}
         <Link href="/about">About</Link> |{" "}
-        <Link href="/newsletter">Newsletter</Link>
+        <Link href="/devotional">Devotional</Link> |{" "}
+        <Link href="/newsletter">Newsletter</Link> |{" "}
+        <Link href="/contact">Contact</Link>
       </nav>
     </header>
   );
 }
-
-
-
