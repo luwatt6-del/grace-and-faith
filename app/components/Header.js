@@ -25,14 +25,14 @@ const styles = {
   },
 
   title: {
-    marginBottom: "10px",
+    marginBottom: "12px",
     fontWeight: "600",
   },
 
   nav: {
     display: "flex",
     justifyContent: "center",
-    gap: "25px",
+    gap: "30px",
     fontSize: "16px",
-  },
+  }
 };
