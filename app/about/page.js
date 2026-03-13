@@ -1,8 +1,56 @@
 export default function AboutPage() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>This is working.</p>
+    <div style={styles.container}>
+
+      <h1>About Grace & Faith Ministries</h1>
+
+      <p>
+        Grace & Faith Ministries was born from a deeply personal journey.
+        There were seasons in my life marked by pain, uncertainty, and moments
+        when the path forward was not clear. During those times, it was my
+        faith in God that sustained me and carried me through.
+      </p>
+
+      <p>
+        This ministry exists as a reminder that no one has to walk through
+        life’s difficult seasons alone. The same God who brought me through
+        my struggles is the same God who is able to guide, strengthen, and
+        comfort you through yours.
+      </p>
+
+      <p>
+        Grace & Faith Ministries was created to be a place of encouragement,
+        reflection, and spiritual renewal. Through weekly devotionals,
+        scripture, prayer, and community, the goal is to create a quiet space
+        where people can pause, breathe, and reconnect with God's presence.
+      </p>
+
+      <p>
+        If you have found your way here during a challenging season, know
+        that you are not alone. There is hope, there is grace, and there is
+        always a path forward through faith.
+      </p>
+
+      <p style={styles.signature}>
+        Oletha Palmer<br/>
+        Founder of Grace & Faith Ministries
+      </p>
+
     </div>
   );
 }
+
+const styles = {
+  container: {
+    maxWidth: "800px",
+    margin: "0 auto",
+    padding: "40px 20px",
+    lineHeight: "1.8",
+    fontFamily: "Georgia, serif"
+  },
+
+  signature: {
+    marginTop: "40px",
+    fontWeight: "600"
+  }
+};
