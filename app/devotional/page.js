@@ -104,23 +104,43 @@ export default function DevotionalPage() {
 
         <hr style={{ margin: "40px 0", borderColor: "#eee" }} />
 
-        <h3>Need Prayer?</h3>
+      <div style={styles.prayerBox}>
+  <h3>Need Prayer?</h3>
 
-        <p>
-          If you would like us to pray for you, please send your prayer request.
-          You are not alone. Every request is treated with care and compassion.
-        </p>
+  <p>
+    If you would like someone to pray with you or for you, you are welcome
+    to send your prayer request. Every message is treated with care,
+    compassion, and confidentiality.
+  </p>
 
-        <p>
-          <a href="mailto:graceandfaithministrys@yahoo.com"
-             style={{ color: "#4a6fa5", textDecoration: "none", fontWeight: "bold" }}>
-            Send Your Prayer Request
-          </a>
-        </p>
+  <p>
+    You are not alone. Whatever you are facing, we will lift you up in prayer.
+  </p>
 
-      </div>
-    </div>
+  <a href="/contact" style={styles.prayerButton}>
+    Send Your Prayer Request
+  </a>
+</div>
+</div> 
+</div>
   );
 }
-      
+
+<div style={styles.prayerBox}>
+  <h3>Need Prayer?</h3>
+
+  <p>
+    If you would like someone to pray with you or for you, you are welcome
+    to send your prayer request. Every message is treated with care,
+    compassion, and confidentiality.
+  </p>
+
+  <p>
+    You are not alone. Whatever you are facing, we will lift you up in prayer.
+  </p>
+
+  <a href="/contact" style={styles.prayerButton}>
+    Send Your Prayer Request
+  </a>
+</div>
       
