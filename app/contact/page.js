@@ -1,24 +1,122 @@
-export default function ContactPage() {
+import Link from "next/link";
+
+export default function HomePage() {
   return (
-    <div>
-      <h1>Contact Grace & Faith Ministries</h1>
+    <div style={styles.container}>
 
-      <p>
-        We would love to hear from you. Whether you have a prayer request,
-        testimony, or general inquiry, please reach out.
-      </p>
+      {/* Welcome Section */}
+      <section style={styles.hero}>
+        <h1>Welcome to Grace & Faith Ministries</h1>
 
-      <h2>Email Us</h2>
-      <p>
-        <a href="mailto:graceandfaithministrys@yahoo.com">
-          graceandfaithministrys@yahoo.com
-        </a>
-      </p>
+        <section style={styles.section}>
+          <h2>Scripture for the Heart</h2>
 
-      <p>
-        “The Lord bless you and keep you; the Lord make His face shine upon you.”
-        – Numbers 6:24-26
-      </p>
+          <p>
+            “The Lord is close to the brokenhearted and saves those who are crushed in spirit.”
+            – Psalm 34:18
+          </p>
+
+          <p>
+            Grace & Faith Ministries is a place of hope, restoration, and the
+            transforming power of God's Word.
+          </p>
+
+          <p>
+            We are committed to sharing the love of Christ, strengthening faith,
+            and encouraging lives through prayer, teaching, and spiritual support.
+          </p>
+        </section>
+
+        <div style={styles.verseBox}>
+          <h3>Verse of Hope</h3>
+
+          <p style={{ fontStyle: "italic" }}>
+            “The Lord is close to the brokenhearted and saves those who are crushed in spirit.”
+          </p>
+
+          <p>— Psalm 34:18</p>
+        </div>
+
+        <p style={styles.tagline}>
+          A place to grow in faith, experience God's grace, and find hope
+          through His Word.
+        </p>
+
+        <Link href="/devotional" style={styles.button}>
+          Read This Week's Devotional
+        </Link>
+      </section>
+
+      {/* Devotional Highlight */}
+      <section style={styles.section}>
+        <h2>Weekly Devotional</h2>
+
+        <p>
+          Each week we focus on a theme rooted in Scripture —
+          faith, grace, or hope — offering reflection, prayer,
+          and encouragement for your spiritual journey.
+        </p>
+
+        <Link href="/devotional">Visit the Devotional Page →</Link>
+      </section>
+
+      {/* Newsletter Section */}
+      <section style={styles.section}>
+        <h2>Newsletter</h2>
+
+        <p>
+          Stay connected with Grace & Faith Ministries by joining our newsletter.
+          Receive encouragement, devotionals, and updates directly to your inbox.
+        </p>
+
+        <Link href="/newsletter">Join the Newsletter →</Link>
+      </section>
+
     </div>
   );
 }
+
+const styles = {
+  container: {
+    padding: "40px 20px",
+    fontFamily: "Georgia, serif",
+    lineHeight: "1.8"
+  },
+
+  hero: {
+    textAlign: "center",
+    marginBottom: "60px"
+  },
+
+  section: {
+    maxWidth: "750px",
+    margin: "40px auto"
+  },
+
+  verseBox: {
+    marginTop: "35px",
+    padding: "25px",
+    backgroundColor: "#f3f6fb",
+    borderRadius: "10px",
+    textAlign: "center",
+    border: "1px solid #e0e6f0",
+    maxWidth: "650px",
+    marginLeft: "auto",
+    marginRight: "auto"
+  },
+
+  tagline: {
+    marginTop: "30px",
+    fontStyle: "italic"
+  },
+
+  button: {
+    display: "inline-block",
+    marginTop: "20px",
+    padding: "12px 20px",
+    backgroundColor: "#4a6fa5",
+    color: "white",
+    textDecoration: "none",
+    borderRadius: "6px"
+  }
+};
