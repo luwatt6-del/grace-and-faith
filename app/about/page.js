@@ -2,17 +2,6 @@ export default function AboutPage() {
   return (
     <div style={styles.container}>
 
-    <h2>Our Mission</h2>
-
-<p>
-Our mission is to glorify God by equipping believers, reaching the lost,
-and building a community grounded in grace, faith, and truth.
-</p>
-
-<p>
-“For by grace you have been saved through faith, and that not of yourselves;
-it is the gift of God.” – Ephesians 2:8
-</p>
       <h1>About Grace & Faith Ministries</h1>
 
       <p>
@@ -46,7 +35,17 @@ it is the gift of God.” – Ephesians 2:8
         Oletha Palmer<br/>
         Founder of Grace & Faith Ministries
       </p>
+ <h2>Our Mission</h2>
 
+<p>
+Our mission is to glorify God by equipping believers, reaching the lost,
+and building a community grounded in grace, faith, and truth.
+</p>
+
+<p>
+“For by grace you have been saved through faith, and that not of yourselves;
+it is the gift of God.” – Ephesians 2:8
+</p>
     </div>
   );
 }
