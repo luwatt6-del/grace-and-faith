@@ -58,7 +58,10 @@ const styles = {
     lineHeight: "1.8",
     fontFamily: "Georgia, serif"
   },
-
+title: {
+  textAlign: "center",
+  marginBottom: "30px"
+},
   signature: {
     marginTop: "40px",
     fontWeight: "600"
