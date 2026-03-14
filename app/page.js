@@ -9,6 +9,7 @@ export default function HomePage() {
         <h1>Welcome to Grace & Faith Ministries</h1>
     <section style={styles.section}>
   <h2>Scripture for the Heart</h2>
+
 <div style={styles.verseBox}>
   <h3>Verse of Hope</h3>
 
@@ -19,10 +20,8 @@ export default function HomePage() {
   <p>— Psalm 34:18</p>
 </div>
 
-  <p>
-    “The Lord is close to the brokenhearted and saves those who are crushed in spirit.”
-    – Psalm 34:18
-  </p>
+<p style={styles.tagline}>
+
 
   <p>
     Grace & Faith Ministries is a place of hope, restoration, and the
