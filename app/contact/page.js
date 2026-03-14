@@ -1,76 +1,55 @@
-import Link from "next/link";
-
-export default function HomePage() {
+export default function ContactPage() {
   return (
     <div style={styles.container}>
 
-      {/* Welcome Section */}
-      <section style={styles.hero}>
-        <h1>Welcome to Grace & Faith Ministries</h1>
+      <h1 style={styles.title}>Prayer Request</h1>
 
-        <section style={styles.section}>
-          <h2>Scripture for the Heart</h2>
+      <p style={styles.intro}>
+        If you are going through a difficult season and would like prayer,
+        you are welcome to share your request. Every message is treated
+        with care, compassion, and respect.
+      </p>
 
-          <p>
-            “The Lord is close to the brokenhearted and saves those who are crushed in spirit.”
-            – Psalm 34:18
-          </p>
+      <p style={styles.scripture}>
+        “Cast all your anxiety on Him because He cares for you.”
+        <br />
+        — 1 Peter 5:7
+      </p>
 
-          <p>
-            Grace & Faith Ministries is a place of hope, restoration, and the
-            transforming power of God's Word.
-          </p>
+      <div style={styles.formBox}>
 
-          <p>
-            We are committed to sharing the love of Christ, strengthening faith,
-            and encouraging lives through prayer, teaching, and spiritual support.
-          </p>
-        </section>
+        <form
+          action="mailto:graceandfaithministrys@yahoo.com"
+          method="post"
+          encType="text/plain"
+        >
 
-        <div style={styles.verseBox}>
-          <h3>Verse of Hope</h3>
+          <label style={styles.label}>Name (Optional)</label>
+          <input type="text" name="name" style={styles.input} />
 
-          <p style={{ fontStyle: "italic" }}>
-            “The Lord is close to the brokenhearted and saves those who are crushed in spirit.”
-          </p>
+          <label style={styles.label}>Email (Optional)</label>
+          <input type="email" name="email" style={styles.input} />
 
-          <p>— Psalm 34:18</p>
-        </div>
+          <label style={styles.label}>Your Prayer Request</label>
+          <textarea
+            name="prayer"
+            rows="6"
+            style={styles.textarea}
+            placeholder="Share what you would like prayer for..."
+          ></textarea>
 
-        <p style={styles.tagline}>
-          A place to grow in faith, experience God's grace, and find hope
-          through His Word.
-        </p>
+          <button type="submit" style={styles.button}>
+            Send Prayer Request
+          </button>
 
-        <Link href="/devotional" style={styles.button}>
-          Read This Week's Devotional
-        </Link>
-      </section>
+        </form>
 
-      {/* Devotional Highlight */}
-      <section style={styles.section}>
-        <h2>Weekly Devotional</h2>
+      </div>
 
-        <p>
-          Each week we focus on a theme rooted in Scripture —
-          faith, grace, or hope — offering reflection, prayer,
-          and encouragement for your spiritual journey.
-        </p>
-
-        <Link href="/devotional">Visit the Devotional Page →</Link>
-      </section>
-
-      {/* Newsletter Section */}
-      <section style={styles.section}>
-        <h2>Newsletter</h2>
-
-        <p>
-          Stay connected with Grace & Faith Ministries by joining our newsletter.
-          Receive encouragement, devotionals, and updates directly to your inbox.
-        </p>
-
-        <Link href="/newsletter">Join the Newsletter →</Link>
-      </section>
+      <p style={styles.closing}>
+        Your request matters. We will lift you up in prayer.
+        Remember, you are not alone — God sees you and cares deeply for you.
+      </p>
 
     </div>
   );
@@ -78,45 +57,68 @@ export default function HomePage() {
 
 const styles = {
   container: {
-    padding: "40px 20px",
-    fontFamily: "Georgia, serif",
-    lineHeight: "1.8"
-  },
-
-  hero: {
-    textAlign: "center",
-    marginBottom: "60px"
-  },
-
-  section: {
     maxWidth: "750px",
-    margin: "40px auto"
+    margin: "0 auto",
+    padding: "60px 20px",
+    fontFamily: "Georgia, serif",
+    lineHeight: "1.8",
+    textAlign: "center"
   },
 
-  verseBox: {
-    marginTop: "35px",
-    padding: "25px",
-    backgroundColor: "#f3f6fb",
+  title: {
+    marginBottom: "20px"
+  },
+
+  intro: {
+    marginBottom: "20px"
+  },
+
+  scripture: {
+    fontStyle: "italic",
+    marginBottom: "40px"
+  },
+
+  formBox: {
+    backgroundColor: "#f7f9fc",
+    padding: "30px",
     borderRadius: "10px",
-    textAlign: "center",
     border: "1px solid #e0e6f0",
-    maxWidth: "650px",
-    marginLeft: "auto",
-    marginRight: "auto"
+    textAlign: "left"
   },
 
-  tagline: {
-    marginTop: "30px",
-    fontStyle: "italic"
+  label: {
+    display: "block",
+    marginTop: "15px",
+    marginBottom: "5px"
+  },
+
+  input: {
+    width: "100%",
+    padding: "10px",
+    borderRadius: "6px",
+    border: "1px solid #ccc"
+  },
+
+  textarea: {
+    width: "100%",
+    padding: "10px",
+    borderRadius: "6px",
+    border: "1px solid #ccc"
   },
 
   button: {
-    display: "inline-block",
     marginTop: "20px",
     padding: "12px 20px",
     backgroundColor: "#4a6fa5",
     color: "white",
-    textDecoration: "none",
-    borderRadius: "6px"
+    border: "none",
+    borderRadius: "6px",
+    cursor: "pointer"
+  },
+
+  closing: {
+    marginTop: "40px",
+    fontStyle: "italic"
   }
 };
+
