@@ -7,32 +7,35 @@ export default function HomePage() {
       {/* Welcome Section */}
       <section style={styles.hero}>
         <h1>Welcome to Grace & Faith Ministries</h1>
-    <section style={styles.section}>
-  <h2>Scripture for the Heart</h2>
 
-<div style={styles.verseBox}>
-  <h3>Verse of Hope</h3>
+        <section style={styles.section}>
+          <h2>Scripture for the Heart</h2>
 
-  <p style={{ fontStyle: "italic" }}>
-    “The Lord is close to the brokenhearted and saves those who are crushed in spirit.”
-  </p>
+          <p>
+            “The Lord is close to the brokenhearted and saves those who are crushed in spirit.”
+            – Psalm 34:18
+          </p>
 
-  <p>— Psalm 34:18</p>
-</div>
+          <p>
+            Grace & Faith Ministries is a place of hope, restoration, and the
+            transforming power of God's Word.
+          </p>
 
-<p style={styles.tagline}>
+          <p>
+            We are committed to sharing the love of Christ, strengthening faith,
+            and encouraging lives through prayer, teaching, and spiritual support.
+          </p>
+        </section>
 
+        <div style={styles.verseBox}>
+          <h3>Verse of Hope</h3>
 
-  <p>
-    Grace & Faith Ministries is a place of hope, restoration, and the
-    transforming power of God's Word.
-  </p>
+          <p style={{ fontStyle: "italic" }}>
+            “The Lord is close to the brokenhearted and saves those who are crushed in spirit.”
+          </p>
 
-  <p>
-    We are committed to sharing the love of Christ, strengthening faith,
-    and encouraging lives through prayer, teaching, and spiritual support.
-  </p>
-</section>
+          <p>— Psalm 34:18</p>
+        </div>
 
         <p style={styles.tagline}>
           A place to grow in faith, experience God's grace, and find hope
@@ -57,27 +60,16 @@ export default function HomePage() {
         <Link href="/devotional">Visit the Devotional Page →</Link>
       </section>
 
-      {/* Newsletter */}
+      {/* Newsletter Section */}
       <section style={styles.section}>
-        <h2>Join the Newsletter</h2>
+        <h2>Newsletter</h2>
 
         <p>
-          Receive weekly devotionals, scripture encouragement,
-          and updates from Grace & Faith Ministries directly in your inbox.
+          Stay connected with Grace & Faith Ministries by joining our newsletter.
+          Receive encouragement, devotionals, and updates directly to your inbox.
         </p>
 
-        <Link href="/newsletter">Subscribe to the Newsletter →</Link>
-      </section>
-
-      {/* Future Shop */}
-      <section style={styles.section}>
-        <h2>Online Shop (Coming Soon)</h2>
-
-        <p>
-          Soon you will be able to support the ministry through our
-          online shop featuring Christian-inspired items designed to
-          encourage faith and spread hope.
-        </p>
+        <Link href="/newsletter">Join the Newsletter →</Link>
       </section>
 
     </div>
@@ -86,11 +78,9 @@ export default function HomePage() {
 
 const styles = {
   container: {
-    maxWidth: "800px",
-    margin: "0 auto",
     padding: "40px 20px",
-    lineHeight: "1.8",
-    fontFamily: "Georgia, serif"
+    fontFamily: "Georgia, serif",
+    lineHeight: "1.8"
   },
 
   hero: {
@@ -98,33 +88,36 @@ const styles = {
     marginBottom: "60px"
   },
 
+  section: {
+    maxWidth: "750px",
+    margin: "40px auto"
+  },
+
+  verseBox: {
+    marginTop: "35px",
+    padding: "25px",
+    backgroundColor: "#f3f6fb",
+    borderRadius: "10px",
+    textAlign: "center",
+    border: "1px solid #e0e6f0",
+    maxWidth: "650px",
+    marginLeft: "auto",
+    marginRight: "auto"
+  },
+
   tagline: {
-    fontStyle: "italic",
-    marginBottom: "25px"
+    marginTop: "30px",
+    fontStyle: "italic"
   },
 
   button: {
+    display: "inline-block",
+    marginTop: "20px",
+    padding: "12px 20px",
     backgroundColor: "#4a6fa5",
     color: "white",
-    padding: "12px 20px",
-    borderRadius: "6px",
     textDecoration: "none",
-    fontSize: "16px"
-  },
-
-  section: {
-    marginBottom: "50px"
+    borderRadius: "6px"
   }
-  verseBox: {
-  marginTop: "35px",
-  padding: "25px",
-  backgroundColor: "#f3f6fb",
-  borderRadius: "10px",
-  textAlign: "center",
-  border: "1px solid #e0e6f0",
-  maxWidth: "650px",
-  marginLeft: "auto",
-  marginRight: "auto"
-},
-
 };
+
