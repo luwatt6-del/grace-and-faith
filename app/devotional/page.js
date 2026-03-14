@@ -104,43 +104,46 @@ export default function DevotionalPage() {
 
         <hr style={{ margin: "40px 0", borderColor: "#eee" }} />
 
-      <div style={styles.prayerBox}>
-  <h3>Need Prayer?</h3>
+        <div style={styles.prayerBox}>
+          <h3>Need Prayer?</h3>
 
-  <p>
-    If you would like someone to pray with you or for you, you are welcome
-    to send your prayer request. Every message is treated with care,
-    compassion, and confidentiality.
-  </p>
+          <p>
+            If you would like someone to pray with you or for you, you are welcome
+            to send your prayer request. Every message is treated with care,
+            compassion, and confidentiality.
+          </p>
 
-  <p>
-    You are not alone. Whatever you are facing, we will lift you up in prayer.
-  </p>
+          <p>
+            You are not alone. Whatever you are facing, we will lift you up in prayer.
+          </p>
 
-  <a href="/contact" style={styles.prayerButton}>
-    Send Your Prayer Request
-  </a>
-</div>
-</div> 
-</div>
+          <a href="/contact" style={styles.prayerButton}>
+            Send Your Prayer Request
+          </a>
+        </div>
+
+      </div>
+    </div>
   );
 }
 
-<div style={styles.prayerBox}>
-  <h3>Need Prayer?</h3>
+const styles = {
+  prayerBox: {
+    marginTop: "50px",
+    padding: "25px",
+    backgroundColor: "#f3f6fb",
+    borderRadius: "8px",
+    textAlign: "center",
+    border: "1px solid #e0e6f0"
+  },
 
-  <p>
-    If you would like someone to pray with you or for you, you are welcome
-    to send your prayer request. Every message is treated with care,
-    compassion, and confidentiality.
-  </p>
-
-  <p>
-    You are not alone. Whatever you are facing, we will lift you up in prayer.
-  </p>
-
-  <a href="/contact" style={styles.prayerButton}>
-    Send Your Prayer Request
-  </a>
-</div>
-      
+  prayerButton: {
+    display: "inline-block",
+    marginTop: "15px",
+    padding: "10px 18px",
+    backgroundColor: "#4a6fa5",
+    color: "white",
+    textDecoration: "none",
+    borderRadius: "6px"
+  }
+};
