@@ -9,6 +9,15 @@ export default function HomePage() {
         <h1>Welcome to Grace & Faith Ministries</h1>
     <section style={styles.section}>
   <h2>Scripture for the Heart</h2>
+<div style={styles.verseBox}>
+  <h3>Verse of Hope</h3>
+
+  <p style={{ fontStyle: "italic" }}>
+    “The Lord is close to the brokenhearted and saves those who are crushed in spirit.”
+  </p>
+
+  <p>— Psalm 34:18</p>
+</div>
 
   <p>
     “The Lord is close to the brokenhearted and saves those who are crushed in spirit.”
@@ -107,4 +116,16 @@ const styles = {
   section: {
     marginBottom: "50px"
   }
+  verseBox: {
+  marginTop: "35px",
+  padding: "25px",
+  backgroundColor: "#f3f6fb",
+  borderRadius: "10px",
+  textAlign: "center",
+  border: "1px solid #e0e6f0",
+  maxWidth: "650px",
+  marginLeft: "auto",
+  marginRight: "auto"
+},
+
 };
