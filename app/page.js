@@ -7,6 +7,24 @@ export default function HomePage() {
       {/* Welcome Section */}
       <section style={styles.hero}>
         <h1>Welcome to Grace & Faith Ministries</h1>
+    <section style={styles.section}>
+  <h2>Scripture for the Heart</h2>
+
+  <p>
+    “The Lord is close to the brokenhearted and saves those who are crushed in spirit.”
+    – Psalm 34:18
+  </p>
+
+  <p>
+    Grace & Faith Ministries is a place of hope, restoration, and the
+    transforming power of God's Word.
+  </p>
+
+  <p>
+    We are committed to sharing the love of Christ, strengthening faith,
+    and encouraging lives through prayer, teaching, and spiritual support.
+  </p>
+</section>
 
         <p style={styles.tagline}>
           A place to grow in faith, experience God's grace, and find hope
