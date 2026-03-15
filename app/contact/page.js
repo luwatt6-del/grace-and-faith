@@ -19,8 +19,8 @@ export default function ContactPage() {
       <div style={styles.formBox}>
 
         <form
-          action="https://formspree.io/f/xbdzagjr"
-          method="POST"
+  action="https://formspree.io/f/xbdzagjr"
+ 
         >
 
           <label style={styles.label}>Name (Optional)</label>
