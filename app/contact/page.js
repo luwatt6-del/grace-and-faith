@@ -5,9 +5,9 @@ export default function ContactPage() {
       <h1 style={styles.title}>Prayer Request</h1>
 
       <p style={styles.intro}>
-        If you are going through a difficult season and would like prayer,
-        you are welcome to share your request. Every message is treated
-        with care, compassion, and respect.
+        If you are walking through a difficult season and would like prayer,
+        you are welcome to share your request. Every message is received
+        with care, compassion, and confidentiality.
       </p>
 
       <p style={styles.scripture}>
@@ -19,20 +19,27 @@ export default function ContactPage() {
       <div style={styles.formBox}>
 
         <form
-          action="mailto:graceandfaithministrys@yahoo.com"
-          method="post"
-          encType="text/plain"
+          action="https://formspree.io/f/xbdzagjr"
+          method="POST"
         >
 
           <label style={styles.label}>Name (Optional)</label>
-          <input type="text" name="name" style={styles.input} />
+          <input
+            type="text"
+            name="name"
+            style={styles.input}
+          />
 
           <label style={styles.label}>Email (Optional)</label>
-          <input type="email" name="email" style={styles.input} />
+          <input
+            type="email"
+            name="email"
+            style={styles.input}
+          />
 
           <label style={styles.label}>Your Prayer Request</label>
           <textarea
-            name="prayer"
+            name="message"
             rows="6"
             style={styles.textarea}
             placeholder="Share what you would like prayer for..."
@@ -121,4 +128,5 @@ const styles = {
     fontStyle: "italic"
   }
 };
+
 
