@@ -1,0 +1,75 @@
+export default function IssueTwo() {
+  return (
+    <div style={styles.container}>
+
+      <h1>Issue 2</h1>
+      <h2>Hope When Life Feels Heavy</h2>
+
+      <p style={styles.intro}>
+        In this issue we explore the quiet strength that hope brings during
+        seasons when life feels overwhelming.
+      </p>
+export default function IssueTwo() {
+  return (
+    <div style={styles.container}>
+
+      <h1>Issue 2</h1>
+      <h2>Hope When Life Feels Heavy</h2>
+
+      <p style={styles.intro}>
+        In this issue we explore the quiet strength that hope brings during
+        seasons when life feels overwhelming.
+      </p>
+
+      <p>
+        Hope does not deny pain or difficulty. Instead, it reminds us that
+        God is still working even when we cannot yet see the outcome.
+      </p>
+
+      <h3>Reflection</h3>
+
+      <p>
+        There are moments when the weight of life feels heavy on the heart.
+        Responsibilities, disappointments, and unanswered prayers can make
+        the journey feel long.
+      </p>
+
+      <p>
+        Yet hope whispers that the story is not finished.
+        God continues to work in ways we may not immediately understand.
+      </p>
+
+      <p style={styles.scripture}>
+        “May the God of hope fill you with all joy and peace as you trust in Him.”
+        <br />
+        — Romans 15:13
+      </p>
+
+    </div>
+  );
+      <p>
+        Hope does not deny pain or difficulty. Instead, it reminds us that
+        God is still working even when we cannot yet see the outcome.
+      </p>
+
+      <h3>Reflection</h3>
+
+      <p>
+        There are moments when the weight of life feels heavy on the heart.
+        Responsibilities, disappointments, and unanswered prayers can make
+        the journey feel long.
+      </p>
+
+      <p>
+        Yet hope whispers that the story is not finished.
+        God continues to work in ways we may not immediately understand.
+      </p>
+
+      <p style={styles.scripture}>
+        “May the God of hope fill you with all joy and peace as you trust in Him.”
+        <br />
+        — Romans 15:13
+      </p>
+
+    </div>
+  );
