@@ -3,73 +3,70 @@ export default function IssueTwo() {
     <div style={styles.container}>
 
       <h1>Issue 2</h1>
-      <h2>Hope When Life Feels Heavy</h2>
+      <h2>UnHAPPY Never After Newsletter</h2>
 
-      <p style={styles.intro}>
-        In this issue we explore the quiet strength that hope brings during
-        seasons when life feels overwhelming.
-      </p>
-export default function IssueTwo() {
-  return (
-    <div style={styles.container}>
-
-      <h1>Issue 2</h1>
-      <h2>Hope When Life Feels Heavy</h2>
-
-      <p style={styles.intro}>
-        In this issue we explore the quiet strength that hope brings during
-        seasons when life feels overwhelming.
+      <p style={styles.meta}>
+        April 1, 2024
       </p>
 
       <p>
-        Hope does not deny pain or difficulty. Instead, it reminds us that
-        God is still working even when we cannot yet see the outcome.
-      </p>
-
-      <h3>Reflection</h3>
-
-      <p>
-        There are moments when the weight of life feels heavy on the heart.
-        Responsibilities, disappointments, and unanswered prayers can make
-        the journey feel long.
+        Issue 2 continues the journey of healing and reflection with deeper
+        conversations about relationships, faith, and moving forward after
+        divorce. This issue features real interviews, spiritual encouragement,
+        and practical insights for those rebuilding their lives.
       </p>
 
       <p>
-        Yet hope whispers that the story is not finished.
-        God continues to work in ways we may not immediately understand.
+        Readers will find conversations with couples, pastoral guidance on
+        living a Christ-centered life after divorce, lifestyle inspiration,
+        and practical encouragement for everyday living.
       </p>
 
-      <p style={styles.scripture}>
-        “May the God of hope fill you with all joy and peace as you trust in Him.”
-        <br />
-        — Romans 15:13
+      <p style={styles.quote}>
+        “Now to Him who is able to do exceedingly abundantly above all that we
+        ask or think.” – Ephesians 3:20
       </p>
+
+      <a
+        href="/issue2.pdf"
+        target="_blank"
+        style={styles.button}
+      >
+        Read Full Issue
+      </a>
 
     </div>
   );
-      <p>
-        Hope does not deny pain or difficulty. Instead, it reminds us that
-        God is still working even when we cannot yet see the outcome.
-      </p>
+}
 
-      <h3>Reflection</h3>
+const styles = {
 
-      <p>
-        There are moments when the weight of life feels heavy on the heart.
-        Responsibilities, disappointments, and unanswered prayers can make
-        the journey feel long.
-      </p>
+  container: {
+    maxWidth: "750px",
+    margin: "0 auto",
+    padding: "60px 20px",
+    fontFamily: "Georgia, serif",
+    lineHeight: "1.8"
+  },
 
-      <p>
-        Yet hope whispers that the story is not finished.
-        God continues to work in ways we may not immediately understand.
-      </p>
+  meta: {
+    fontStyle: "italic",
+    marginBottom: "20px"
+  },
 
-      <p style={styles.scripture}>
-        “May the God of hope fill you with all joy and peace as you trust in Him.”
-        <br />
-        — Romans 15:13
-      </p>
+  quote: {
+    fontStyle: "italic",
+    marginTop: "30px"
+  },
 
-    </div>
-  );
+  button: {
+    display: "inline-block",
+    marginTop: "30px",
+    padding: "12px 20px",
+    backgroundColor: "#4a6fa5",
+    color: "white",
+    textDecoration: "none",
+    borderRadius: "6px"
+  }
+
+};
