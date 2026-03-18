@@ -46,24 +46,31 @@ export default function NewsletterPage() {
       </div>
 
       <div style={styles.issueBoxPremium}>
-        <h3>Issue 3</h3>
-        <p><strong>Faith in Everyday Living</strong></p>
+  <h3>Issue 3</h3>
+  <p><strong>Faith in Everyday Living</strong></p>
 
-      Read Issue 3
-        <p>
-          In this issue we explore what it means to live by faith
-          in our everyday lives — through real stories,
-          reflection, faith conversations, and encouragement.
-        </p>
+  <a 
+    href="/newsletters/issue3.pdf" 
+    target="_blank"
+    style={styles.button}
+  >
+    Read Issue 3
+  </a>
 
-        <p style={styles.premiumNote}>
-          This issue is part of our premium newsletter.
-        </p>
+  <p>
+    In this issue we explore what it means to live by faith
+    in our everyday lives — through real stories,
+    reflection, faith conversations, and encouragement.
+  </p>
 
-        <button style={styles.button}>
-          Subscribe to Continue Reading
-        </button>
-      </div>
+  <p style={styles.premiumNote}>
+    This issue is part of our premium newsletter.
+  </p>
+
+  <button style={styles.button}>
+    Subscribe to Continue Reading
+  </button>
+</div>
 
     </div>
   );
