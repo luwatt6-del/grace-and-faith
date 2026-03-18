@@ -62,11 +62,6 @@ export default function NewsletterPage() {
 
         <button style={styles.button}>
           Subscribe to Continue Reading
-          <a 
-       href="/newsletters/issue3.pdf" 
-       target="_blank" 
-      className="bg-black text-white px-4 py-2 rounded"
-      >
         </button>
       </div>
 
