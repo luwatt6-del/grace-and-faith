@@ -48,7 +48,12 @@ export default function NewsletterPage() {
       <div style={styles.issueBoxPremium}>
         <h3>Issue 3</h3>
         <p><strong>Faith in Everyday Living</strong></p>
-
+      <a 
+       href="/newsletters/issue3.pdf" 
+       target="_blank" 
+      className="bg-black text-white px-4 py-2 rounded"
+      >
+      Read Issue 3
         <p>
           In this issue we explore what it means to live by faith
           in our everyday lives — through real stories,
