@@ -49,13 +49,13 @@ export default function NewsletterPage() {
   <h3>Issue 3</h3>
   <p><strong>Faith in Everyday Living</strong></p>
 
-  <a 
-    Link href="/issue3">Read Issue →</Link>
-    target="_blank"
-    style={styles.button}
-  >
-    Read Issue 3
-  </a>
+ <a 
+  href="/issue3.pdf" 
+  target="_blank"
+  style={styles.button}
+>
+  Read Issue 3
+</a>
 
   <p>
     In this issue we explore what it means to live by faith
