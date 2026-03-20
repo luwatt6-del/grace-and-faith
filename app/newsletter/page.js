@@ -36,7 +36,7 @@ export default function NewsletterPage() {
       <div style={styles.issueBox}>
         <h3>Issue 1</h3>
         <p>Grace in Difficult Seasons</p>
-        <Link href="/newsletter/issue1">Read Issue →</Link>
+        <Link href="/issue1">Read Issue →</Link>
       </div>
 
       <div style={styles.issueBox}>
