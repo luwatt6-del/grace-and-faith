@@ -50,7 +50,7 @@ export default function NewsletterPage() {
   <p><strong>Faith in Everyday Living</strong></p>
 
   <a 
-    href="/newsletters/issue3.pdf" 
+    Link href="/issue3">Read Issue →</Link>
     target="_blank"
     style={styles.button}
   >
