@@ -49,22 +49,21 @@ export default function NewsletterPage() {
   <h3>Issue 3</h3>
   <p><strong>Faith in Everyday Living</strong></p>
 
-  <a 
-    href="/issue3.pdf" 
-    target="_blank"
-    style={styles.button}
-  >
-    Read Issue 3
-  </a>
+  {/* Preview Section */}
+  <div style={styles.previewBox}>
+    <p>
+      "Faith is not just something we speak — it is something we live daily,
+      in quiet decisions, in hard moments, and in unwavering trust in God."
+    </p>
+
+    <div style={styles.blurOverlay}>
+      <p>🔒 Full Issue Locked</p>
+    </div>
+  </div>
 
   <p>
-    In this issue we explore what it means to live by faith
-    in our everyday lives — through real stories,
-    reflection, faith conversations, and encouragement.
-  </p>
-
-  <p style={styles.premiumNote}>
-    This issue is part of our premium newsletter.
+    Continue reading this powerful issue featuring real stories,
+    faith conversations, lifestyle inspiration, and encouragement.
   </p>
 
   <button style={styles.button}>
