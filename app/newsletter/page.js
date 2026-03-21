@@ -109,19 +109,28 @@ const styles = {
     marginTop: "20px"
   },
 
-  issueBoxPremium: {
-    border: "1px solid #d4c7a1",
-    backgroundColor: "#faf8f2",
-    borderRadius: "8px",
-    padding: "25px",
-    marginTop: "30px"
-  },
+  previewBox: {
+  position: "relative",
+  padding: "20px",
+  backgroundColor: "#f9f9f9",
+  borderRadius: "10px",
+  marginBottom: "15px",
+},
 
-  premiumNote: {
-    fontStyle: "italic",
-    marginTop: "10px"
-  },
-
+blurOverlay: {
+  position: "absolute",
+  top: 0,
+  left: 0,
+  width: "100%",
+  height: "100%",
+  backdropFilter: "blur(5px)",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  fontWeight: "bold",
+  backgroundColor: "rgba(255,255,255,0.6)",
+  borderRadius: "10px",
+},
   button: {
     marginTop: "15px",
     padding: "12px 20px",
