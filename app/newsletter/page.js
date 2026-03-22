@@ -154,13 +154,6 @@ blurOverlay: {
   backgroundColor: "rgba(255,255,255,0.6)",
   borderRadius: "10px",
 },
-  featureBox: {
-  marginTop: "20px",
-  padding: "20px",
-  backgroundColor: "#f7f4ef",
-  borderRadius: "8px",
-  border: "1px solid #e5e5e5"
-},
   button: {
     marginTop: "15px",
     padding: "12px 20px",
