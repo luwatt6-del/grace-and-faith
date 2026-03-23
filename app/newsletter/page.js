@@ -45,49 +45,41 @@ export default function NewsletterPage() {
         <Link href="/newsletter/issue2">Read Issue →</Link>
       </div>
 
-     <h3>Issue 3</h3>
-<p><strong>Faith in Everyday Living</strong></p>
+     <div style={styles.issueBoxPremium}>
+  <h3>Issue 3</h3>
+  <p><strong>Faith in Everyday Living</strong></p>
 
-{/* Preview Section */}
-<div style={styles.previewBox}>
-  <p>
-    "Faith is not just something we speak — it is something we live daily,
-    in quiet decisions, in hard moments, and in unwavering trust in God."
-  </p>
+  {/* Preview Section */}
+  <div style={styles.previewBox}>
+    <p>
+      "Faith is not just something we speak — it is something we live daily,
+      in quiet decisions, in hard moments, and in unwavering trust in God."
+    </p>
 
-  <div style={styles.blurOverlay}>
-    <p>🔒 Full Issue Locked</p>
+    <div style={styles.blurOverlay}>
+      <p>🔒 Full Issue Locked</p>
+    </div>
   </div>
-</div>
-
-<p>
-  Continue reading this powerful issue featuring real stories,
-  faith conversations, lifestyle inspiration, and encouragement.
-</p>
-
-{/* NEW: What’s Inside */}
-<div style={styles.featureBox}>
-  <h4>What This Issue Includes:</h4>
-
-  <ul>
-    <li>✨ Editor’s Reflection – A heartfelt message on living faith daily</li>
-    <li>✨ Counsellor Feature – Faith in real-life application</li>
-    <li>✨ Real Couple Interview – Navigating life and faith together</li>
-    <li>✨ Faith & Style – Living confidently in faith and identity</li>
-    <li>✨ Recipe Feature – A simple moment of warmth and home</li>
-    <li>✨ Did You Know? – Encouraging insight to strengthen your walk</li>
-    <li>✨ Closing Reflection & Scripture – A peaceful spiritual ending</li>
-  </ul>
-</div>
-
-<button style={styles.button}>
-  Subscribe to Continue Reading
-</button>
 
   <p>
     Continue reading this powerful issue featuring real stories,
     faith conversations, lifestyle inspiration, and encouragement.
   </p>
+
+  {/* What’s Inside */}
+  <div style={styles.featureBox}>
+    <h4>What This Issue Includes:</h4>
+
+    <ul>
+      <li>✨ Editor’s Reflection</li>
+      <li>✨ Counsellor Feature</li>
+      <li>✨ Real Couple Interview</li>
+      <li>✨ Faith & Style</li>
+      <li>✨ Recipe Feature</li>
+      <li>✨ Did You Know?</li>
+      <li>✨ Closing Reflection & Scripture</li>
+    </ul>
+  </div>
 
   <button style={styles.button}>
     Subscribe to Continue Reading
@@ -125,12 +117,13 @@ const styles = {
     margin: "40px 0"
   },
 
-  issueBox: {
-    border: "1px solid #e0e6f0",
-    borderRadius: "8px",
-    padding: "20px",
-    marginTop: "20px"
-  },
+  issueBoxPremium: {
+  border: "2px solid #4a6fa5",
+  borderRadius: "10px",
+  padding: "20px",
+  marginTop: "20px",
+  backgroundColor: "#f9fbff"
+},
 
   previewBox: {
   position: "relative",
@@ -153,6 +146,13 @@ blurOverlay: {
   fontWeight: "bold",
   backgroundColor: "rgba(255,255,255,0.6)",
   borderRadius: "10px",
+},
+issueBoxPremium: {
+  border: "2px solid #4a6fa5",
+  borderRadius: "10px",
+  padding: "20px",
+  marginTop: "20px",
+  backgroundColor: "#f9fbff"
 },
   button: {
     marginTop: "15px",
