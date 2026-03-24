@@ -170,5 +170,7 @@ issueBoxPremium: {
   textDecoration: "none",   // 👈 ADD THIS
   display: "inline-block"   // 👈 ADD THIS
 }
-
+<p style={{ marginTop: "10px", fontSize: "14px", color: "#555" }}>
+  After payment, return to this page to access your full issue.
+</p>
 };
