@@ -81,9 +81,14 @@ export default function NewsletterPage() {
     </ul>
   </div>
 
-  <button style={styles.button}>
-    Subscribe to Continue Reading
-  </button>
+ <a
+  href="https://www.paypal.com/ncp/payment/UM3BPPD6H7FUE"
+  target="_blank"
+  style={styles.button}
+>
+  Subscribe to Continue Reading
+</a>
+    
 </div>
     </div>
   );
@@ -155,13 +160,15 @@ issueBoxPremium: {
   backgroundColor: "#f9fbff"
 },
   button: {
-    marginTop: "15px",
-    padding: "12px 20px",
-    backgroundColor: "#4a6fa5",
-    color: "white",
-    border: "none",
-    borderRadius: "6px",
-    cursor: "pointer"
-  }
+  marginTop: "15px",
+  padding: "12px 20px",
+  backgroundColor: "#4a6fa5",
+  color: "white",
+  border: "none",
+  borderRadius: "6px",
+  cursor: "pointer",
+  textDecoration: "none",   // 👈 ADD THIS
+  display: "inline-block"   // 👈 ADD THIS
+}
 
 };
