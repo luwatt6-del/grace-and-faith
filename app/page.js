@@ -97,10 +97,11 @@ export default function HomePage() {
 
 const styles = {
   container: {
-    padding: "40px 15px",
-    fontFamily: "Georgia, serif",
-    lineHeight: "1.8"
-  },
+  padding: "40px 15px",
+  fontFamily: "Georgia, serif",
+  lineHeight: "1.8",
+  overflowX: "hidden"
+},
 
   hero: {
     textAlign: "center",
