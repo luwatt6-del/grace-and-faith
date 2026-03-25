@@ -19,20 +19,22 @@ export default function ContactPage() {
       <div style={styles.formBox}>
 
        <form
-  action="https://formspree.io/f/YOUR_FORM_ID"
+  action="https://formspree.io/f/xbdzagjr"
   method="POST"
 >
 
-  <label>Your Name</label>
-  <input type="text" name="name" required />
+ <label style={styles.label}>Your Name</label>
+<input type="text" name="name" required style={styles.input} />
 
-  <label>Email</label>
-  <input type="email" name="email" required />
+<label style={styles.label}>Email</label>
+<input type="email" name="email" required style={styles.input} />
 
-  <label>Prayer Request</label>
-  <textarea name="message" required></textarea>
+<label style={styles.label}>Prayer Request</label>
+<textarea name="message" required style={styles.textarea}></textarea>
 
-  <button type="submit">Send Prayer Request</button>
+<button type="submit" style={styles.button}>
+  Send Prayer Request
+</button>
 
 </form>
       </div>
