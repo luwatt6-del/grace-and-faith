@@ -71,24 +71,26 @@ export default function HomePage() {
 
         <Link href="/newsletter">Join the Newsletter →</Link>
       </section>
-        
-<div style={styles.shopSection}>
-  <h2>Shop (Coming Soon)</h2>
 
-  <p>
-    We are preparing something special for you.
-  </p>
+      {/* Shop Section */}
+      <div style={styles.shopSection}>
+        <h2>Shop (Coming Soon)</h2>
 
-  <p>
-    Our upcoming shop will feature faith-inspired items including
-    biblical souvenirs, apparel, and meaningful pieces designed
-    to uplift and inspire your daily walk with God.
-  </p>
+        <p>
+          We are preparing something special for you.
+        </p>
 
-  <p style={styles.comingSoon}>
-    Stay tuned — something beautiful is on the way ✨
-  </p>
-</div>
+        <p>
+          Our upcoming shop will feature faith-inspired items including
+          biblical souvenirs, apparel, and meaningful pieces designed
+          to uplift and inspire your daily walk with God.
+        </p>
+
+        <p style={styles.comingSoon}>
+          Stay tuned — something beautiful is on the way ✨
+        </p>
+      </div>
+
     </div>
   );
 }
@@ -99,19 +101,7 @@ const styles = {
     fontFamily: "Georgia, serif",
     lineHeight: "1.8"
   },
-shopSection: {
-  marginTop: "60px",
-  padding: "30px",
-  backgroundColor: "#f9f9f9",
-  borderRadius: "10px",
-  textAlign: "center"
-},
 
-comingSoon: {
-  marginTop: "10px",
-  fontStyle: "italic",
-  color: "#777"
-}
   hero: {
     textAlign: "center",
     marginBottom: "60px"
@@ -147,6 +137,20 @@ comingSoon: {
     color: "white",
     textDecoration: "none",
     borderRadius: "6px"
+  },
+
+  shopSection: {
+    marginTop: "60px",
+    padding: "30px",
+    backgroundColor: "#f9f9f9",
+    borderRadius: "10px",
+    textAlign: "center"
+  },
+
+  comingSoon: {
+    marginTop: "10px",
+    fontStyle: "italic",
+    color: "#777"
   }
 };
-
+   
