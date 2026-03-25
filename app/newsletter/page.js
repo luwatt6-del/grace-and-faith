@@ -90,7 +90,8 @@ export default function NewsletterPage() {
 </a>
 
 <p style={{ marginTop: "10px", fontSize: "14px", color: "#555" }}>
-  After payment, return to this page to access your full issue.
+  After completing your subscription, you will receive access to Issue 3.
+  Please check your email or return here for further instructions.
 </p>
     
 </div>
