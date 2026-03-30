@@ -1,8 +1,8 @@
 export default function Issue1Page() {
   return (
     <div style={styles.container}>
-
       <h1>Grace in Difficult Seasons</h1>
+
       <p style={styles.date}>March 9, 2026</p>
 
       <p style={styles.scripture}>
@@ -30,11 +30,27 @@ export default function Issue1Page() {
         Lord, thank You for Your grace that sustains me in difficult seasons.
         Help me to trust You even when life feels heavy. Amen.
       </p>
-
     </div>
   );
 }
 
 const styles = {
   container: {
-    maxWidth: "
+    maxWidth: "750px",
+    margin: "0 auto",
+    padding: "40px 15px",
+    fontFamily: "Georgia, serif",
+    lineHeight: "1.8"
+  },
+
+  date: {
+    fontSize: "14px",
+    color: "#777",
+    marginBottom: "10px"
+  },
+
+  scripture: {
+    fontStyle: "italic",
+    marginBottom: "15px"
+  }
+};
