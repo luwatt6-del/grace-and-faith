@@ -31,6 +31,9 @@ export default function Issue2Page() {
         Give me rest, renew my strength, and remind me that I am not alone.
         Amen.
       </p>
+    <Link href="/devotional" style={styles.backButton}>
+  ← Back to Devotionals
+</Link>
     </div>
   );
 }
