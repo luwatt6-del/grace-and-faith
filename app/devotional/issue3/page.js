@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Issue3Page() {
   return (
     <div style={styles.container}>
@@ -32,6 +33,9 @@ export default function Issue3Page() {
         Teach me to trust You in both the big and small moments of life.
         Amen.
       </p>
+    <Link href="/devotional" style={styles.backButton}>
+  ← Back to Devotionals
+</Link>
     </div>
   );
 }
