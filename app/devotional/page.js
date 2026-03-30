@@ -7,7 +7,7 @@ export default function DevotionalPage() {
       {/* 🌟 LATEST DEVOTIONAL */}
       <div style={styles.latestBox}>
         <h2>Trusting God When You Don’t Understand</h2>
-
+       <p style={styles.date}>March 30, 2026</p>
         <p style={styles.scripture}>
           “Trust in the Lord with all your heart and lean not on your own understanding…”
           <br />— Proverbs 3:5–6
@@ -42,19 +42,22 @@ export default function DevotionalPage() {
       <h2>Previous Devotionals</h2>
 
       <div style={styles.archiveBox}>
-        <h3>Faith in Everyday Living</h3>
-        <p>Learning to walk with God daily in simple, faithful ways.</p>
-      </div>
+  <h3>Faith in Everyday Living</h3>
+  <p style={styles.date}>March 23, 2026</p>
+  <p>Learning to walk with God daily in simple, faithful ways.</p>
+</div>
 
-      <div style={styles.archiveBox}>
-        <h3>Hope When Life Feels Heavy</h3>
-        <p>Finding strength and encouragement during difficult seasons.</p>
-      </div>
+<div style={styles.archiveBox}>
+  <h3>Hope When Life Feels Heavy</h3>
+  <p style={styles.date}>March 16, 2026</p>
+  <p>Finding strength and encouragement during difficult seasons.</p>
+</div>
 
-      <div style={styles.archiveBox}>
-        <h3>Grace in Difficult Seasons</h3>
-        <p>Understanding God’s grace in times of hardship and struggle.</p>
-      </div>
+<div style={styles.archiveBox}>
+  <h3>Grace in Difficult Seasons</h3>
+  <p style={styles.date}>March 9, 2026</p>
+  <p>Understanding God’s grace in times of hardship and struggle.</p>
+</div>
 
     </div>
   );
@@ -97,5 +100,10 @@ const styles = {
     backgroundColor: "#fafafa",
     borderRadius: "8px",
     border: "1px solid #eee"
-  }
+  },
+  date: {
+  fontSize: "14px",
+  color: "#777",
+  marginBottom: "10px"
+}
 };
