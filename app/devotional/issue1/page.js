@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Issue1Page() {
   return (
     <div style={styles.container}>
@@ -30,6 +31,9 @@ export default function Issue1Page() {
         Lord, thank You for Your grace that sustains me in difficult seasons.
         Help me to trust You even when life feels heavy. Amen.
       </p>
+    <Link href="/devotional" style={styles.backButton}>
+  ← Back to Devotionals
+  </Link>
     </div>
   );
 }
