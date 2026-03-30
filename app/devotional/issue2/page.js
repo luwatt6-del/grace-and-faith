@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Issue2Page() {
   return (
     <div style={styles.container}>
