@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function DevotionalPage() {
   return (
     <div style={styles.container}>
@@ -42,19 +43,25 @@ export default function DevotionalPage() {
       <h2>Previous Devotionals</h2>
 
       <div style={styles.archiveBox}>
+  <Link href="/devotional/issue3">
   <h3>Faith in Everyday Living</h3>
+</Link>
   <p style={styles.date}>March 23, 2026</p>
   <p>Learning to walk with God daily in simple, faithful ways.</p>
 </div>
 
 <div style={styles.archiveBox}>
+  <Link href="/devotional/issue2">
   <h3>Hope When Life Feels Heavy</h3>
+</Link>
   <p style={styles.date}>March 16, 2026</p>
   <p>Finding strength and encouragement during difficult seasons.</p>
 </div>
 
 <div style={styles.archiveBox}>
+  <Link href="/devotional/issue1">
   <h3>Grace in Difficult Seasons</h3>
+</Link>
   <p style={styles.date}>March 9, 2026</p>
   <p>Understanding God’s grace in times of hardship and struggle.</p>
 </div>
