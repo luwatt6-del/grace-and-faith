@@ -1,149 +1,101 @@
 export default function DevotionalPage() {
   return (
-    <div style={{
-      backgroundColor: "#f7f4ef",
-      minHeight: "100vh",
-      padding: "60px 20px",
-      fontFamily: "Georgia, serif"
-    }}>
-      
-      <div style={{
-        maxWidth: "750px",
-        margin: "0 auto",
-        backgroundColor: "white",
-        padding: "50px",
-        borderRadius: "12px",
-        boxShadow: "0 8px 30px rgba(0,0,0,0.05)",
-        lineHeight: "1.9"
-      }}>
+    <div style={styles.container}>
 
-        <h1 style={{ textAlign: "center", marginBottom: "20px" }}>
-          Weekly Devotional
-        </h1>
+      <h1 style={styles.title}>Weekly Devotional</h1>
 
-        <div style={{
-          textAlign: "center",
-          backgroundColor: "#eef3f8",
-          padding: "15px",
-          borderRadius: "8px",
-          marginBottom: "30px"
-        }}>
-          <strong>This Week’s Focus: Faith</strong>
-        </div>
+      {/* 🌟 LATEST DEVOTIONAL */}
+      <div style={styles.latestBox}>
+        <h2>Trusting God When You Don’t Understand</h2>
 
-        <p style={{ textAlign: "center", fontStyle: "italic" }}>
-          A quiet place to breathe, reflect, and be renewed.
-        </p>
-
-        <hr style={{ margin: "40px 0", borderColor: "#eee" }} />
-
-        <h3>Scripture for the Week</h3>
-
-        <p>
-          “Now faith is the substance of things hoped for,
-          the evidence of things not seen.” – Hebrews 11:1
+        <p style={styles.scripture}>
+          “Trust in the Lord with all your heart and lean not on your own understanding…”
+          <br />— Proverbs 3:5–6
         </p>
 
         <p>
-          “For we walk by faith, not by sight.” – 2 Corinthians 5:7
-        </p>
-
-        <hr style={{ margin: "40px 0", borderColor: "#eee" }} />
-
-        <h3>Reflection</h3>
-
-        <p>
-          Faith is not pretending everything is fine.
-          It is choosing to trust God even when life feels uncertain.
+          There are moments in life when nothing seems to make sense. Doors close unexpectedly,
+          prayers seem unanswered, and the path ahead feels uncertain.
         </p>
 
         <p>
-          There may be areas in your life where clarity is missing —
-          decisions that feel heavy, prayers that feel unanswered,
-          seasons that feel unclear. Faith gently reminds us that
-          God is present even when we cannot see the full picture.
+          In those moments, God calls us to trust — not because we understand,
+          but because He does.
         </p>
 
         <p>
-          This week, allow yourself to rest in the truth that
-          you do not have to have everything figured out.
-          Faith is not about having all the answers —
-          it is about trusting the One who does.
+          You may not understand what God is doing right now,
+          but you can trust that He is working.
         </p>
 
-        <hr style={{ margin: "40px 0", borderColor: "#eee" }} />
-
-        <h3>Prayer for the Week</h3>
-
-        <p>Father God,</p>
-
+        <h3>Prayer</h3>
         <p>
-          Strengthen my faith in moments of uncertainty.
-          Help me to trust You beyond what I see.
-          Quiet my fears and remind me that You are working
-          even when I do not understand.
+          Heavenly Father, help me to trust You even when I don’t understand.
+          Strengthen my faith and remind me that You are in control.
+          Amen.
         </p>
-
-        <p>
-          Teach me to walk by faith and not by sight.
-          Renew my confidence in Your promises.
-          Let Your peace guard my heart this week.
-        </p>
-
-        <p>Amen.</p>
-
-        <hr style={{ margin: "40px 0", borderColor: "#eee" }} />
-
-        <h3>Personal Reflection</h3>
-
-        <ul style={{ marginTop: "15px" }}>
-          <li>What area of my life requires deeper trust in God right now?</li>
-          <li>What fear can I release into God’s hands this week?</li>
-          <li>What promise from Scripture can I hold onto?</li>
-        </ul>
-
-        <hr style={{ margin: "40px 0", borderColor: "#eee" }} />
-
-        <div style={styles.prayerBox}>
-          <h3>Need Prayer?</h3>
-
-          <p>
-            If you would like someone to pray with you or for you, you are welcome
-            to send your prayer request. Every message is treated with care,
-            compassion, and confidentiality.
-          </p>
-
-          <p>
-            You are not alone. Whatever you are facing, we will lift you up in prayer.
-          </p>
-
-          <a href="/contact" style={styles.prayerButton}>
-            Send Your Prayer Request
-          </a>
-        </div>
-
       </div>
+
+      <hr style={styles.divider} />
+
+      {/* 📚 PREVIOUS DEVOTIONALS */}
+      <h2>Previous Devotionals</h2>
+
+      <div style={styles.archiveBox}>
+        <h3>Faith in Everyday Living</h3>
+        <p>Learning to walk with God daily in simple, faithful ways.</p>
+      </div>
+
+      <div style={styles.archiveBox}>
+        <h3>Hope When Life Feels Heavy</h3>
+        <p>Finding strength and encouragement during difficult seasons.</p>
+      </div>
+
+      <div style={styles.archiveBox}>
+        <h3>Grace in Difficult Seasons</h3>
+        <p>Understanding God’s grace in times of hardship and struggle.</p>
+      </div>
+
     </div>
   );
 }
 
 const styles = {
-  prayerBox: {
-    marginTop: "50px",
-    padding: "25px",
-    backgroundColor: "#f3f6fb",
-    borderRadius: "8px",
-    textAlign: "center",
-    border: "1px solid #e0e6f0"
+  container: {
+    maxWidth: "750px",
+    margin: "0 auto",
+    padding: "40px 15px",
+    fontFamily: "Georgia, serif",
+    lineHeight: "1.8"
   },
 
-  prayerButton: {
-    display: "inline-block",
-    marginTop: "15px",
-    padding: "10px 18px",
-    backgroundColor: "#4a6fa5",
-    color: "white",
-    textDecoration: "none",
-    borderRadius: "6px"
+  title: {
+    textAlign: "center",
+    marginBottom: "40px"
+  },
+
+  latestBox: {
+    backgroundColor: "#f3f6fb",
+    padding: "25px",
+    borderRadius: "10px",
+    border: "1px solid #e0e6f0",
+    marginBottom: "30px"
+  },
+
+  scripture: {
+    fontStyle: "italic",
+    marginBottom: "15px"
+  },
+
+  divider: {
+    margin: "40px 0"
+  },
+
+  archiveBox: {
+    marginBottom: "20px",
+    padding: "15px",
+    backgroundColor: "#fafafa",
+    borderRadius: "8px",
+    border: "1px solid #eee"
   }
 };
