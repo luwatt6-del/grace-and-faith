@@ -31,9 +31,11 @@ export default function Issue1Page() {
         Lord, thank You for Your grace that sustains me in difficult seasons.
         Help me to trust You even when life feels heavy. Amen.
       </p>
-    <Link href="/devotional" style={styles.backButton}>
-  ← Back to Devotionals
-  </Link>
+          
+      <Link href="/devotional" style={styles.backButton}>
+      ← Back to Devotionals
+      </Link>
+          
     </div>
   );
 }
@@ -56,5 +58,15 @@ const styles = {
   scripture: {
     fontStyle: "italic",
     marginBottom: "15px"
+  },
+
+  backButton: {
+    display: "inline-block",
+    marginTop: "40px",
+    padding: "10px 16px",
+    backgroundColor: "#e6ecf5",
+    borderRadius: "6px",
+    textDecoration: "none",
+    color: "#333"
   }
 };
