@@ -6,7 +6,7 @@ export default function HomePage() {
 
       {/* Welcome Section */}
       <section style={styles.hero}>
-        <h1>Welcome to Grace & Faith Ministries</h1>
+        <h1 style={styles.mainTitle}>Grace & Faith Ministries</h1>
 
         <section style={styles.section}>
           <h2>Scripture for the Heart</h2>
