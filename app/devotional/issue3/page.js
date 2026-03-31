@@ -58,5 +58,15 @@ const styles = {
   scripture: {
     fontStyle: "italic",
     marginBottom: "15px"
+  },
+
+  backButton: {
+    display: "inline-block",
+    marginTop: "40px",
+    padding: "10px 16px",
+    backgroundColor: "#e6ecf5",
+    borderRadius: "6px",
+    textDecoration: "none",
+    color: "#333"
   }
 };
