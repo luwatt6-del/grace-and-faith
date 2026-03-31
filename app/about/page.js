@@ -38,9 +38,10 @@ export default function AboutPage() {
 
 
           
- <h2 style={styles.mission}>Our Mission</h2>
-
-<p>
+<div style={styles.missionBox}>
+  <h2>Our Mission</h2>
+  <p>
+    <p>
 Our mission is to glorify God by equipping believers, reaching the lost,
 and building a community grounded in grace, faith, and truth.
 </p>
@@ -49,6 +50,9 @@ and building a community grounded in grace, faith, and truth.
 “For by grace you have been saved through faith, and that not of yourselves;
 it is the gift of God.” – Ephesians 2:8
 </p>
+  </p>
+</div>
+
     </div>
   );
 }
