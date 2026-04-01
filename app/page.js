@@ -3,14 +3,7 @@ import Link from "next/link";
 export default function HomePage() {
   return (
     <div style={styles.container}>
-    <div style={styles.navbar}>
-  <Link href="/" style={styles.navHome}>Home</Link>
-  <Link href="/about" style={styles.navAbout}>About</Link>
-  <Link href="/devotional" style={styles.navDevotional}>Devotional</Link>
-  <Link href="/newsletter" style={styles.navNewsletter}>Newsletter</Link>
-  <Link href="/contact" style={styles.navContact}>Contact</Link>
-</div>
-
+    
       {/* Welcome Section */}
       <section style={styles.hero}>
         <h1 style={styles.mainTitle}>Grace & Faith Ministries</h1>
