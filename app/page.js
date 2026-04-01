@@ -49,7 +49,9 @@ export default function HomePage() {
 
       {/* Devotional Highlight */}
       <section style={styles.section}>
-        <h2>Weekly Devotional</h2>
+       <h2>
+  📖 Weekly Devotional
+</h2>
 
         <p>
           Each week we focus on a theme rooted in Scripture —
