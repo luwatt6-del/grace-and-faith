@@ -38,13 +38,21 @@ export default function AboutPage() {
 
 
           
-<div style={styles.missionBox}>
-  <h2>Our Mission</h2>
-  <p>
+<section style={styles.section}>
+  <div style={styles.missionBox}>
+    <h2>Our Mission</h2>
+
     <p>
-Our mission is to glorify God by equipping believers, reaching the lost,
-and building a community grounded in grace, faith, and truth.
-</p>
+      Grace & Faith Ministries is a place of hope, restoration, and the
+      transforming power of God's Word.
+    </p>
+
+    <p>
+      We are committed to sharing the love of Christ, strengthening faith,
+      and encouraging lives through prayer, teaching, and spiritual support.
+    </p>
+  </div>
+</section>
 
 <p style={styles.scripture}>
 “For by grace you have been saved through faith, and that not of yourselves;
