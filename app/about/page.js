@@ -82,4 +82,13 @@ scripture: {
   fontStyle: "italic",
   marginTop: "20px"
 },
+  
+missionBox: {
+  backgroundColor: "#f3f0fa",
+  padding: "25px",
+  borderRadius: "10px",
+  marginTop: "30px",
+  border: "1px solid #e0d9f5"
+
+}
 };
