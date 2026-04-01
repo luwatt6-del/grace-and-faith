@@ -3,6 +3,13 @@ import Link from "next/link";
 export default function HomePage() {
   return (
     <div style={styles.container}>
+    <div style={styles.navbar}>
+  <Link href="/" style={styles.navHome}>Home</Link>
+  <Link href="/about" style={styles.navAbout}>About</Link>
+  <Link href="/devotional" style={styles.navDevotional}>Devotional</Link>
+  <Link href="/newsletter" style={styles.navNewsletter}>Newsletter</Link>
+  <Link href="/contact" style={styles.navContact}>Contact</Link>
+</div>
 
       {/* Welcome Section */}
       <section style={styles.hero}>
@@ -152,6 +159,67 @@ const styles = {
     marginTop: "10px",
     fontStyle: "italic",
     color: "#777"
-  }
+  },
+  mainTitle: {
+  color: "#7a6fa5",
+  textAlign: "center",
+  marginBottom: "20px"
+},
+
+missionBox: {
+  backgroundColor: "#f3f0fa",
+  padding: "25px",
+  borderRadius: "10px",
+  marginTop: "30px",
+  border: "1px solid #e0d9f5"
+},
+
+navbar: {
+  display: "flex",
+  justifyContent: "center",
+  gap: "10px",
+  marginBottom: "30px",
+  flexWrap: "wrap"
+},
+
+navHome: {
+  backgroundColor: "#e6f0fa",
+  padding: "8px 12px",
+  borderRadius: "6px",
+  textDecoration: "none",
+  color: "#333"
+},
+
+navAbout: {
+  backgroundColor: "#f3f0fa",
+  padding: "8px 12px",
+  borderRadius: "6px",
+  textDecoration: "none",
+  color: "#333"
+},
+
+navDevotional: {
+  backgroundColor: "#fff1e6",
+  padding: "8px 12px",
+  borderRadius: "6px",
+  textDecoration: "none",
+  color: "#333"
+},
+
+navNewsletter: {
+  backgroundColor: "#e8f5e9",
+  padding: "8px 12px",
+  borderRadius: "6px",
+  textDecoration: "none",
+  color: "#333"
+},
+
+navContact: {
+  backgroundColor: "#fdecef",
+  padding: "8px 12px",
+  borderRadius: "6px",
+  textDecoration: "none",
+  color: "#333"
+}
 };
    
