@@ -51,6 +51,11 @@ export default function DevotionalPage() {
       <h2>Previous Devotionals</h2>
 
       <div style={styles.archiveBox}>
+  <h3>Trusting God When You Don’t Understand</h3>
+  <p style={styles.date}>March 30, 2026</p>
+  <p>Learning to trust God even when life doesn’t make sense.</p>
+</div>
+      <div style={styles.archiveBox}>
   <Link href="/devotional/issue3">
   <h3>Faith in Everyday Living</h3>
 </Link>
