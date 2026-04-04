@@ -7,34 +7,42 @@ export default function DevotionalPage() {
 
       {/* 🌟 LATEST DEVOTIONAL */}
       <div style={styles.latestBox}>
-        <h2>Trusting God When You Don’t Understand</h2>
-       <p style={styles.date}>March 30, 2026</p>
-        <p style={styles.scripture}>
-          “Trust in the Lord with all your heart and lean not on your own understanding…”
-          <br />— Proverbs 3:5–6
-        </p>
+  <h2>Finding Peace in the Waiting</h2>
+  <p style={styles.date}>April 6, 2026</p>
 
-        <p>
-          There are moments in life when nothing seems to make sense. Doors close unexpectedly,
-          prayers seem unanswered, and the path ahead feels uncertain.
-        </p>
+  <p style={styles.scripture}>
+    “Be still before the Lord and wait patiently for Him…”
+    <br />— Psalm 37:7
+  </p>
 
-        <p>
-          In those moments, God calls us to trust — not because we understand,
-          but because He does.
-        </p>
+  <p>
+    Waiting is one of the hardest seasons we face. We pray, we hope,
+    and yet the answers do not come when we expect them.
+  </p>
 
-        <p>
-          You may not understand what God is doing right now,
-          but you can trust that He is working.
-        </p>
+  <p>
+    In the waiting, it can feel like God is silent — but silence does not
+    mean absence. God is working behind the scenes, aligning things in
+    ways we cannot yet see.
+  </p>
 
-        <h3>Prayer</h3>
-        <p>
-          Heavenly Father, help me to trust You even when I don’t understand.
-          Strengthen my faith and remind me that You are in control.
-          Amen.
-        </p>
+  <p>
+    Waiting is not wasted time. It is a season where faith is stretched,
+    patience is formed, and trust is deepened.
+  </p>
+
+  <p>
+    If you find yourself in a waiting season, know this:
+    God has not forgotten you. He is preparing something beautiful
+    in His perfect time.
+  </p>
+
+  <h3>Prayer</h3>
+  <p>
+    Lord, help me to trust You in the waiting. Give me peace when I feel
+    anxious and remind me that Your timing is always perfect. Amen.
+  </p>
+</div>
       </div>
 
       <hr style={styles.divider} />
