@@ -58,9 +58,7 @@ export default function DevotionalPage() {
 
       <div style={styles.archiveBox}>
         <h3>
-          <Link href="/devotional/issue3">
-            Faith in Everyday Living
-          </Link>
+          <Link href="/devotional/issue3">Faith in Everyday Living</Link>
         </h3>
         <p style={styles.date}>March 23, 2026</p>
         <p>Learning to walk with God daily in simple, faithful ways.</p>
@@ -68,9 +66,7 @@ export default function DevotionalPage() {
 
       <div style={styles.archiveBox}>
         <h3>
-          <Link href="/devotional/issue2">
-            Hope When Life Feels Heavy
-          </Link>
+          <Link href="/devotional/issue2">Hope When Life Feels Heavy</Link>
         </h3>
         <p style={styles.date}>March 16, 2026</p>
         <p>Finding strength and encouragement during difficult seasons.</p>
@@ -78,9 +74,7 @@ export default function DevotionalPage() {
 
       <div style={styles.archiveBox}>
         <h3>
-          <Link href="/devotional/issue1">
-            Grace in Difficult Seasons
-          </Link>
+          <Link href="/devotional/issue1">Grace in Difficult Seasons</Link>
         </h3>
         <p style={styles.date}>March 9, 2026</p>
         <p>Understanding God’s grace in times of hardship and struggle.</p>
