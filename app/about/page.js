@@ -36,30 +36,26 @@ export default function AboutPage() {
         Founder of Grace & Faith Ministries
       </p>
 
+      <section style={styles.section}>
+        <div style={styles.missionBox}>
+          <h2>Our Mission</h2>
 
-          
-<section style={styles.section}>
-  <div style={styles.missionBox}>
-    <h2>Our Mission</h2>
+          <p>
+            Grace & Faith Ministries is a place of hope, restoration, and the
+            transforming power of God's Word.
+          </p>
 
-    <p>
-      Grace & Faith Ministries is a place of hope, restoration, and the
-      transforming power of God's Word.
-    </p>
+          <p>
+            We are committed to sharing the love of Christ, strengthening faith,
+            and encouraging lives through prayer, teaching, and spiritual support.
+          </p>
+        </div>
+      </section>
 
-    <p>
-      We are committed to sharing the love of Christ, strengthening faith,
-      and encouraging lives through prayer, teaching, and spiritual support.
-    </p>
-  </div>
-</section>
-
-<p style={styles.scripture}>
-“For by grace you have been saved through faith, and that not of yourselves;
-it is the gift of God.” – Ephesians 2:8
-</p>
-  </p>
-</div>
+      <p style={styles.scripture}>
+        “For by grace you have been saved through faith, and that not of yourselves;
+        it is the gift of God.” – Ephesians 2:8
+      </p>
 
     </div>
   );
@@ -73,30 +69,32 @@ const styles = {
     lineHeight: "1.8",
     fontFamily: "Georgia, serif"
   },
-title: {
-  textAlign: "center",
-  marginBottom: "30px"
-},
 
-mission: {
-  textAlign: "center",
-  marginTop: "40px",
-  fontWeight: "700",
-  fontSize: "22px"
-},
+  title: {
+    textAlign: "center",
+    marginBottom: "30px"
+  },
 
-scripture: {
-  textAlign: "center",
-  fontStyle: "italic",
-  marginTop: "20px"
-},
-  
-missionBox: {
-  backgroundColor: "#f3f0fa",
-  padding: "25px",
-  borderRadius: "10px",
-  marginTop: "30px",
-  border: "1px solid #e0d9f5"
+  section: {
+    marginTop: "40px"
+  },
 
-}
+  missionBox: {
+    backgroundColor: "#f3f0fa",
+    padding: "25px",
+    borderRadius: "10px",
+    marginTop: "30px",
+    border: "1px solid #e0d9f5"
+  },
+
+  scripture: {
+    textAlign: "center",
+    fontStyle: "italic",
+    marginTop: "20px"
+  },
+
+  signature: {
+    marginTop: "30px",
+    fontWeight: "600"
+  }
 };
