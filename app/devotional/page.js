@@ -105,7 +105,7 @@ const styles = {
     border: "1px solid #e0e6f0",
     marginBottom: "30px"
   },
-
+  
   scripture: {
     fontStyle: "italic",
     marginBottom: "15px"
@@ -128,4 +128,4 @@ const styles = {
     color: "#777",
     marginBottom: "10px"
   }
-};
+}
