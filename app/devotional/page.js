@@ -50,15 +50,25 @@ export default function DevotionalPage() {
       {/* 📚 PREVIOUS DEVOTIONALS */}
       <h2>Previous Devotionals</h2>
 
-      <div style={styles.archiveBox}>
+     <div
+  style={styles.archiveBox}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.backgroundColor = "#f3f0fa";
+    e.currentTarget.style.transform = "scale(1.02)";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.backgroundColor = "#fafafa";
+    e.currentTarget.style.transform = "scale(1)";
+  }}
+>
   <h3>
     <Link href="/devotional/issue4">
       Trusting God When You Don’t Understand
     </Link>
   </h3>
-        <p style={styles.date}>March 30, 2026</p>
-        <p>Learning to trust God even when life doesn’t make sense.</p>
-      </div>
+  <p style={styles.date}>March 30, 2026</p>
+  <p>Learning to trust God even when life doesn’t make sense.</p>
+</div>
 
       <div style={styles.archiveBox}>
         <h3>
@@ -119,13 +129,14 @@ const styles = {
   },
 
   archiveBox: {
-    marginBottom: "20px",
-    padding: "15px",
-    backgroundColor: "#fafafa",
-    borderRadius: "8px",
-    border: "1px solid #eee"
-  },
-
+  marginBottom: "20px",
+  padding: "15px",
+  backgroundColor: "#fafafa",
+  borderRadius: "10px",
+  border: "1px solid #eee",
+  transition: "all 0.3s ease",
+  cursor: "pointer"
+},
   date: {
     fontSize: "14px",
     color: "#777",
