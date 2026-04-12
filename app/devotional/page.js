@@ -7,60 +7,84 @@ export default function DevotionalPage() {
       <h1 style={styles.title}>📖 Weekly Devotional</h1>
 
       {/* 🌟 LATEST DEVOTIONAL */}
-      <div style={styles.latestBox}>
-        <h2>Finding Peace in the Waiting</h2>
-        <p style={styles.date}>April 6, 2026</p>
+      
+      <h1 style={styles.title}>God’s Timing is Perfect</h1>
+      <p style={styles.date}>April 13, 2026</p>
 
-        <p style={styles.scripture}>
-          “Be still before the Lord and wait patiently for Him…”
-          <br />— Psalm 37:7
-        </p>
+      <p style={styles.scripture}>
+        “He has made everything beautiful in its time…”
+        <br />— Ecclesiastes 3:11
+      </p>
 
-        <p>
-          Waiting is one of the hardest seasons we face. We pray, we hope,
-          and yet the answers do not come when we expect them.
-        </p>
+      <p>
+        There are moments in life when we feel ready for something new,
+        yet nothing seems to move. Doors remain closed, prayers seem
+        unanswered, and we begin to wonder if God has forgotten us.
+      </p>
 
-        <p>
-          In the waiting, it can feel like God is silent — but silence does not
-          mean absence. God is working behind the scenes, aligning things in
-          ways we cannot yet see.
-        </p>
+      <p>
+        But God’s timing is not our timing. While we are waiting,
+        He is working. What feels like delay is often preparation.
+        God is aligning people, circumstances, and even our hearts
+        for what is ahead.
+      </p>
 
-        <p>
-          Waiting is not wasted time. It is a season where faith is stretched,
-          patience is formed, and trust is deepened.
-        </p>
+      <p>
+        If everything came when we wanted it, we might step into
+        blessings we are not ready to carry. But God, in His wisdom,
+        gives us what we need exactly when we need it.
+      </p>
 
-        <p>
-          If you find yourself in a waiting season, know this:
-          God has not forgotten you. He is preparing something beautiful
-          in His perfect time.
-        </p>
+      <p>
+        Trust that your season of waiting is not wasted.
+        Something beautiful is being formed, even now.
+      </p>
 
-        <h3>Prayer</h3>
-        <p>
-          Lord, help me to trust You in the waiting. Give me peace when I feel
-          anxious and remind me that Your timing is always perfect. Amen.
-        </p>
-      </div>
+      <h3>Prayer</h3>
+      <p>
+        Lord, help me to trust Your timing, even when I feel impatient.
+        Give me peace in the waiting and remind me that You are always
+        working for my good. Amen.
+      </p>
+
+    </div>
+  );
+}
+
+const styles = {
+  container: {
+    maxWidth: "750px",
+    margin: "0 auto",
+    padding: "40px 15px",
+    fontFamily: "Georgia, serif",
+    lineHeight: "1.8"
+  },
+
+  title: {
+    textAlign: "center",
+    marginBottom: "10px"
+  },
+
+  date: {
+    textAlign: "center",
+    color: "#777",
+    marginBottom: "20px"
+  },
+
+  scripture: {
+    fontStyle: "italic",
+    marginBottom: "20px"
+  }
+};      </div>
 
       <hr style={styles.divider} />
 
       {/* 📚 PREVIOUS DEVOTIONALS */}
       <h2>Previous Devotionals</h2>
-
-     <div
-  style={styles.archiveBox}
-  onMouseEnter={(e) => {
-    e.currentTarget.style.backgroundColor = "#f3f0fa";
-    e.currentTarget.style.transform = "scale(1.02)";
-  }}
-  onMouseLeave={(e) => {
-    e.currentTarget.style.backgroundColor = "#fafafa";
-    e.currentTarget.style.transform = "scale(1)";
-  }}
 >
+  <Link href="/devotional/issue5">
+  God’s Timing is Perfect
+</Link>
   <h3>
     <Link href="/devotional/issue4">
       Trusting God When You Don’t Understand
@@ -119,6 +143,16 @@ const styles = {
     border: "1px solid #e0e6f0",
     marginBottom: "30px"
   },
+  <div
+  style={styles.archiveBox}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.backgroundColor = "#f3f0fa";
+    e.currentTarget.style.transform = "scale(1.02)";
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.backgroundColor = "#fafafa";
+    e.currentTarget.style.transform = "scale(1)";
+  }}
   scripture: {
     fontStyle: "italic",
     marginBottom: "15px"
