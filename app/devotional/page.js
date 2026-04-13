@@ -40,21 +40,10 @@ export default function DevotionalPage() {
       <hr style={styles.divider} />
 
       {/* 📚 PREVIOUS DEVOTIONALS */}
-
       <h2>Previous Devotionals</h2>
 
       {/* Issue 5 */}
-      <div
-        style={styles.archiveBox}
-        onMouseEnter={(e) => {
-          e.currentTarget.style.backgroundColor = "#f3f0fa";
-          e.currentTarget.style.transform = "scale(1.02)";
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.backgroundColor = "#fafafa";
-          e.currentTarget.style.transform = "scale(1)";
-        }}
-      >
+      <div style={styles.archiveBox}>
         <h3>
           <Link href="/devotional/issue5">God’s Timing is Perfect</Link>
         </h3>
@@ -116,7 +105,7 @@ const styles = {
 
   title: {
     textAlign: "center",
-    marginBottom: "40px"
+    marginBottom: "30px"
   },
 
   latestBox: {
@@ -125,11 +114,6 @@ const styles = {
     borderRadius: "10px",
     border: "1px solid #e0e6f0",
     marginBottom: "30px"
-  },
-
-  scripture: {
-    fontStyle: "italic",
-    marginBottom: "15px"
   },
 
   divider: {
@@ -150,7 +134,10 @@ const styles = {
     fontSize: "14px",
     color: "#777",
     marginBottom: "10px"
+  },
+
+  scripture: {
+    fontStyle: "italic",
+    marginBottom: "15px"
   }
 };
-
-  
