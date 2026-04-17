@@ -8,32 +8,39 @@ export default function DevotionalPage() {
 
       {/* 🌟 LATEST DEVOTIONAL */}
       <div style={styles.latestBox}>
-        <h2>God’s Timing is Perfect</h2>
-        <p style={styles.date}>April 13, 2026</p>
+        <h2>Strength for Today</h2>
+        <p style={styles.date}>April 20, 2026</p>
 
         <p style={styles.scripture}>
-          “He has made everything beautiful in its time…”
-          <br />— Ecclesiastes 3:11
+          “God is our refuge and strength, an ever-present help in trouble.”
+          <br />— Psalm 46:1
         </p>
 
         <p>
-          There are moments in life when we feel ready for something new,
-          yet nothing seems to move.
+          Some days feel heavier than others. Responsibilities grow,
+          emotions rise, and strength feels limited.
         </p>
 
         <p>
-          But God’s timing is not our timing. While we are waiting,
-          He is working behind the scenes.
+          But God does not ask us to carry today alone.
+          He offers fresh strength for each new morning.
         </p>
 
         <p>
-          Trust that your season of waiting is not wasted.
-          Something beautiful is being formed.
+          You may not have strength for next week or next month right now,
+          but you can receive grace for today.
+        </p>
+
+        <p>
+          One step at a time. One prayer at a time.
+          One day at a time.
         </p>
 
         <h3>Prayer</h3>
         <p>
-          Lord, help me to trust Your timing. Give me peace in the waiting. Amen.
+          Lord, thank You for being my refuge and strength.
+          Give me grace for today and peace for this moment.
+          Amen.
         </p>
       </div>
 
@@ -42,15 +49,15 @@ export default function DevotionalPage() {
       {/* 📚 PREVIOUS DEVOTIONALS */}
       <h2>Previous Devotionals</h2>
 
-      {/* Issue 5 */}
       <div style={styles.archiveBox}>
         <h3>
-          <Link href="/devotional/issue5">God’s Timing is Perfect</Link>
+          <Link href="/devotional/issue5">
+            God’s Timing is Perfect
+          </Link>
         </h3>
         <p style={styles.date}>April 13, 2026</p>
       </div>
 
-      {/* Issue 4 */}
       <div style={styles.archiveBox}>
         <h3>
           <Link href="/devotional/issue4">
@@ -60,7 +67,6 @@ export default function DevotionalPage() {
         <p style={styles.date}>March 30, 2026</p>
       </div>
 
-      {/* Issue 3 */}
       <div style={styles.archiveBox}>
         <h3>
           <Link href="/devotional/issue3">
@@ -70,7 +76,6 @@ export default function DevotionalPage() {
         <p style={styles.date}>March 23, 2026</p>
       </div>
 
-      {/* Issue 2 */}
       <div style={styles.archiveBox}>
         <h3>
           <Link href="/devotional/issue2">
@@ -80,7 +85,6 @@ export default function DevotionalPage() {
         <p style={styles.date}>March 16, 2026</p>
       </div>
 
-      {/* Issue 1 */}
       <div style={styles.archiveBox}>
         <h3>
           <Link href="/devotional/issue1">
