@@ -3,43 +3,43 @@ import Link from "next/link";
 export default function DevotionalPage() {
   return (
     <div style={styles.container}>
-
       <h1 style={styles.title}>📖 Weekly Devotional</h1>
 
       {/* 🌟 LATEST DEVOTIONAL */}
       <div style={styles.latestBox}>
-        <h2>Strength for Today</h2>
-        <p style={styles.date}>April 20, 2026</p>
+        <h2>Peace in Uncertain Times</h2>
+        <p style={styles.date}>April 27, 2026</p>
 
         <p style={styles.scripture}>
-          “God is our refuge and strength, an ever-present help in trouble.”
-          <br />— Psalm 46:1
+          “You will keep in perfect peace those whose minds are steadfast,
+          because they trust in You.”
+          <br />— Isaiah 26:3
         </p>
 
         <p>
-          Some days feel heavier than others. Responsibilities grow,
-          emotions rise, and strength feels limited.
+          Life can sometimes feel uncertain. Plans change, doors close,
+          and answers do not always come when we expect them.
         </p>
 
         <p>
-          But God does not ask us to carry today alone.
-          He offers fresh strength for each new morning.
+          In seasons like these, the heart can become restless and anxious.
+          Yet God offers a peace that is deeper than circumstances.
         </p>
 
         <p>
-          You may not have strength for next week or next month right now,
-          but you can receive grace for today.
+          His peace comes when we choose to trust Him, even when we do not
+          understand what lies ahead.
         </p>
 
         <p>
-          One step at a time. One prayer at a time.
-          One day at a time.
+          You may not know every answer today, but you can know that God
+          is still in control, still faithful, and still near.
         </p>
 
         <h3>Prayer</h3>
         <p>
-          Lord, thank You for being my refuge and strength.
-          Give me grace for today and peace for this moment.
+          Lord, calm every anxious thought within me. Help me to trust You
+          in uncertain times and fill my heart with Your perfect peace.
           Amen.
         </p>
       </div>
@@ -47,53 +47,67 @@ export default function DevotionalPage() {
       <hr style={styles.divider} />
 
       {/* 📚 PREVIOUS DEVOTIONALS */}
-      <h2>Previous Devotionals</h2>
+      <h2 style={styles.subTitle}>Previous Devotionals</h2>
 
       <div style={styles.archiveBox}>
         <h3>
-          <Link href="/devotional/issue5">
+          <Link href="/devotional/issue6" style={styles.link}>
+            Strength for Today
+          </Link>
+        </h3>
+        <p style={styles.date}>April 20, 2026</p>
+        <p>Receiving fresh grace and strength for each new day.</p>
+      </div>
+
+      <div style={styles.archiveBox}>
+        <h3>
+          <Link href="/devotional/issue5" style={styles.link}>
             God’s Timing is Perfect
           </Link>
         </h3>
         <p style={styles.date}>April 13, 2026</p>
+        <p>Trusting God when delays become preparation.</p>
       </div>
 
       <div style={styles.archiveBox}>
         <h3>
-          <Link href="/devotional/issue4">
-            Trusting God When You Don’t Understand
+          <Link href="/devotional/issue4" style={styles.link}>
+            Finding Peace in the Waiting
           </Link>
         </h3>
-        <p style={styles.date}>March 30, 2026</p>
+        <p style={styles.date}>April 6, 2026</p>
+        <p>Learning patience and trust while waiting on God.</p>
       </div>
 
       <div style={styles.archiveBox}>
         <h3>
-          <Link href="/devotional/issue3">
+          <Link href="/devotional/issue3" style={styles.link}>
             Faith in Everyday Living
           </Link>
         </h3>
         <p style={styles.date}>March 23, 2026</p>
+        <p>Walking with God daily in simple and faithful ways.</p>
       </div>
 
       <div style={styles.archiveBox}>
         <h3>
-          <Link href="/devotional/issue2">
+          <Link href="/devotional/issue2" style={styles.link}>
             Hope When Life Feels Heavy
           </Link>
         </h3>
         <p style={styles.date}>March 16, 2026</p>
+        <p>Finding encouragement during difficult seasons.</p>
       </div>
 
       <div style={styles.archiveBox}>
         <h3>
-          <Link href="/devotional/issue1">
+          <Link href="/devotional/issue1" style={styles.link}>
             Grace in Difficult Seasons
           </Link>
         </h3>
         <p style={styles.date}>March 9, 2026</p>
+        <p>Understanding God’s grace in times of hardship.</p>
       </div>
-
     </div>
   );
 }
@@ -110,6 +124,10 @@ const styles = {
   title: {
     textAlign: "center",
     marginBottom: "30px"
+  },
+
+  subTitle: {
+    marginBottom: "25px"
   },
 
   latestBox: {
@@ -130,8 +148,12 @@ const styles = {
     backgroundColor: "#fafafa",
     borderRadius: "10px",
     border: "1px solid #eee",
-    transition: "all 0.3s ease",
-    cursor: "pointer"
+    transition: "all 0.3s ease"
+  },
+
+  link: {
+    textDecoration: "none",
+    color: "#5a4fcf"
   },
 
   date: {
