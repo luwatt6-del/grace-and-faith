@@ -7,107 +7,105 @@ export default function DevotionalPage() {
 
       {/* 🌟 LATEST DEVOTIONAL */}
       <div style={styles.latestBox}>
-        <h2>Peace in Uncertain Times</h2>
-        <p style={styles.date}>April 27, 2026</p>
+        <h2>Resting in God’s Presence</h2>
+        <p style={styles.date}>May 4, 2026</p>
 
         <p style={styles.scripture}>
-          “You will keep in perfect peace those whose minds are steadfast,
-          because they trust in You.”
-          <br />— Isaiah 26:3
+          “Be still, and know that I am God…”
+          <br />— Psalm 46:10
         </p>
 
         <p>
-          Life can sometimes feel uncertain. Plans change, doors close,
-          and answers do not always come when we expect them.
+          In a world that constantly demands more, it can feel difficult to slow down.
+          There is always something to do, somewhere to go, or something requiring attention.
         </p>
 
         <p>
-          In seasons like these, the heart can become restless and anxious.
-          Yet God offers a peace that is deeper than circumstances.
+          Yet God gently calls us to be still. Not just physically, but in our hearts and minds.
         </p>
 
         <p>
-          His peace comes when we choose to trust Him, even when we do not
-          understand what lies ahead.
+          Stillness is where we remember who God is. It is where anxiety begins to quiet,
+          and peace begins to rise.
         </p>
 
         <p>
-          You may not know every answer today, but you can know that God
-          is still in control, still faithful, and still near.
+          You do not have to strive endlessly to feel secure. You can rest in God’s presence,
+          knowing that He is in control of every detail of your life.
         </p>
 
         <h3>Prayer</h3>
         <p>
-          Lord, calm every anxious thought within me. Help me to trust You
-          in uncertain times and fill my heart with Your perfect peace.
-          Amen.
+          Lord, teach me to be still in Your presence. Calm my thoughts, quiet my fears,
+          and help me to rest in the assurance that You are God. Amen.
         </p>
       </div>
 
       <hr style={styles.divider} />
 
       {/* 📚 PREVIOUS DEVOTIONALS */}
-      <h2 style={styles.subTitle}>Previous Devotionals</h2>
+      <h2>Previous Devotionals</h2>
 
+      {/* Issue 7 */}
       <div style={styles.archiveBox}>
         <h3>
-          <Link href="/devotional/issue6" style={styles.link}>
-            Strength for Today
-          </Link>
+          <Link href="/devotional/issue7">Peace in Uncertain Times</Link>
+        </h3>
+        <p style={styles.date}>April 27, 2026</p>
+        <p>Trusting God when life feels uncertain and overwhelming.</p>
+      </div>
+
+      {/* Issue 6 */}
+      <div style={styles.archiveBox}>
+        <h3>
+          <Link href="/devotional/issue6">Strength for Today</Link>
         </h3>
         <p style={styles.date}>April 20, 2026</p>
-        <p>Receiving fresh grace and strength for each new day.</p>
+        <p>Receiving fresh grace and strength for each day.</p>
       </div>
 
+      {/* Issue 5 */}
       <div style={styles.archiveBox}>
         <h3>
-          <Link href="/devotional/issue5" style={styles.link}>
-            God’s Timing is Perfect
-          </Link>
+          <Link href="/devotional/issue5">God’s Timing is Perfect</Link>
         </h3>
         <p style={styles.date}>April 13, 2026</p>
-        <p>Trusting God when delays become preparation.</p>
+        <p>Trusting God when delays are part of His plan.</p>
       </div>
 
+      {/* Issue 4 */}
       <div style={styles.archiveBox}>
         <h3>
-          <Link href="/devotional/issue4" style={styles.link}>
-            Finding Peace in the Waiting
-          </Link>
+          <Link href="/devotional/issue4">Finding Peace in the Waiting</Link>
         </h3>
         <p style={styles.date}>April 6, 2026</p>
         <p>Learning patience and trust while waiting on God.</p>
       </div>
 
+      {/* Issue 3 */}
       <div style={styles.archiveBox}>
         <h3>
-          <Link href="/devotional/issue3" style={styles.link}>
-            Faith in Everyday Living
-          </Link>
+          <Link href="/devotional/issue3">Faith in Everyday Living</Link>
         </h3>
         <p style={styles.date}>March 23, 2026</p>
-        <p>Walking with God daily in simple and faithful ways.</p>
       </div>
 
+      {/* Issue 2 */}
       <div style={styles.archiveBox}>
         <h3>
-          <Link href="/devotional/issue2" style={styles.link}>
-            Hope When Life Feels Heavy
-          </Link>
+          <Link href="/devotional/issue2">Hope When Life Feels Heavy</Link>
         </h3>
         <p style={styles.date}>March 16, 2026</p>
-        <p>Finding encouragement during difficult seasons.</p>
       </div>
 
+      {/* Issue 1 */}
       <div style={styles.archiveBox}>
         <h3>
-          <Link href="/devotional/issue1" style={styles.link}>
-            Grace in Difficult Seasons
-          </Link>
+          <Link href="/devotional/issue1">Grace in Difficult Seasons</Link>
         </h3>
         <p style={styles.date}>March 9, 2026</p>
-        <p>Understanding God’s grace in times of hardship.</p>
       </div>
+
     </div>
   );
 }
@@ -124,10 +122,6 @@ const styles = {
   title: {
     textAlign: "center",
     marginBottom: "30px"
-  },
-
-  subTitle: {
-    marginBottom: "25px"
   },
 
   latestBox: {
@@ -147,13 +141,7 @@ const styles = {
     padding: "15px",
     backgroundColor: "#fafafa",
     borderRadius: "10px",
-    border: "1px solid #eee",
-    transition: "all 0.3s ease"
-  },
-
-  link: {
-    textDecoration: "none",
-    color: "#5a4fcf"
+    border: "1px solid #eee"
   },
 
   date: {
