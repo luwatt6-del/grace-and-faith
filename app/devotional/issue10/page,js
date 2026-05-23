@@ -1,0 +1,85 @@
+import Link from "next/link";
+
+export default function Issue10Page() {
+  return (
+    <div style={styles.container}>
+
+      <h1>Peace in the Middle of the Storm</h1>
+
+      <p style={styles.date}>May 17, 2026</p>
+
+      <p style={styles.scripture}>
+        “Peace I leave with you; my peace I give you.”
+        <br />— John 14:27
+      </p>
+
+      <p>
+        Storms in life can appear unexpectedly. Difficult situations,
+        disappointments, and uncertainty often leave us feeling anxious
+        and unsettled.
+      </p>
+
+      <p>
+        Yet even in the middle of life’s storms, God offers us peace —
+        not the temporary peace the world gives, but a deep peace that
+        anchors our hearts through every challenge.
+      </p>
+
+      <p>
+        Peace does not always mean the storm disappears immediately.
+        Sometimes it means knowing that God is with us while we walk through it.
+      </p>
+
+      <p>
+        Whatever storm you may be facing today, remember this:
+        God is near, He is faithful, and His peace is able to calm even
+        the most troubled heart.
+      </p>
+
+      <h3>Prayer</h3>
+
+      <p>
+        Lord, help me to experience Your peace in every season of life.
+        When fear and uncertainty arise, remind me that You are always with me.
+        Amen.
+      </p>
+
+      <Link href="/devotional" style={styles.backButton}>
+        ← Back to Devotionals
+      </Link>
+
+    </div>
+  );
+}
+
+const styles = {
+  container: {
+    maxWidth: "750px",
+    margin: "0 auto",
+    padding: "40px 15px",
+    fontFamily: "Georgia, serif",
+    lineHeight: "1.8"
+  },
+
+  date: {
+    fontSize: "14px",
+    color: "#777",
+    marginBottom: "10px"
+  },
+
+  scripture: {
+    fontStyle: "italic",
+    marginBottom: "15px"
+  },
+
+  backButton: {
+    display: "inline-block",
+    marginTop: "30px",
+    padding: "10px 18px",
+    backgroundColor: "#f3f0fa",
+    color: "#333",
+    textDecoration: "none",
+    borderRadius: "8px",
+    border: "1px solid #ddd"
+  }
+};
