@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import Image from "next/image";
+
 export default function HomePage() {
   return (
     <div style={styles.container}>
@@ -7,6 +9,14 @@ export default function HomePage() {
       {/* Welcome Section */}
       <section style={styles.hero}>
         <h1 style={styles.mainTitle}>Grace & Faith Ministries</h1>
+
+         <Image
+  src="https://images.unsplash.com/photo-1504052434569-70ad5836ab65"
+  alt="Open Bible"
+  width={700}
+  height={400}
+  style={styles.heroImage}
+/>
 
         <section style={styles.section}>
           <h2>Scripture for the Heart</h2>
@@ -208,7 +218,15 @@ navNewsletter: {
   textDecoration: "none",
   color: "#333"
 },
-
+heroImage: {
+  width: "100%",
+  height: "auto",
+  borderRadius: "14px",
+  marginTop: "20px",
+  marginBottom: "25px",
+  objectFit: "cover",
+  boxShadow: "0 4px 12px rgba(0,0,0,0.08)"
+},
 navContact: {
   backgroundColor: "#fdecef",
   padding: "8px 12px",
