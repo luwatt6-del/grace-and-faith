@@ -10,7 +10,7 @@ export default function DevotionalPage() {
       <div style={styles.latestBox}>
         <h2>Strength for the Journey</h2>
 
-        <p style={styles.date}>May 17, 2026</p>
+        <p style={styles.date}>May 24, 2026</p>
 
         <p style={styles.scripture}>
           “But those who hope in the Lord will renew their strength.”
@@ -18,34 +18,32 @@ export default function DevotionalPage() {
         </p>
 
         <p>
-          Some journeys in life become heavier than we expected.
-          There are days when emotionally, mentally, and spiritually,
-          we feel exhausted.
+          Life’s journey can sometimes feel exhausting. There are moments
+          when responsibilities, disappointments, and uncertainty leave us
+          feeling weak and overwhelmed.
         </p>
 
         <p>
-          Yet God never asks us to carry life alone.
-          His strength becomes our strength when we feel weak.
-          When we place our hope in Him, He renews us from within.
+          Yet God never intended for us to carry every burden alone.
+          His strength becomes available to us when our own strength fails.
         </p>
 
         <p>
-          Even when the road feels long, God walks beside you.
-          He sees every silent prayer, every tear, and every moment
-          you kept going when it was difficult.
+          When we place our hope in Him, He renews our hearts,
+          restores our peace, and gives us courage to continue.
         </p>
 
         <p>
-          Do not lose heart. God will give you strength for this journey,
-          one day at a time.
+          You may feel tired today, but God is able to sustain you.
+          One step at a time, His grace will carry you through the journey ahead.
         </p>
 
         <h3>Prayer</h3>
 
         <p>
-          Lord, renew my strength when I feel weary.
-          Help me to keep trusting You through every season
-          and remind me that I never walk alone. Amen.
+          Lord, when I feel weary, renew my strength.
+          Help me to place my hope fully in You and trust that
+          You will guide me each step of the way. Amen.
         </p>
       </div>
 
@@ -54,48 +52,18 @@ export default function DevotionalPage() {
       {/* 📚 PREVIOUS DEVOTIONALS */}
       <h2>Previous Devotionals</h2>
 
-      {/* Issue 9 */}
-      <div style={styles.archiveBox}>
-        <h3>
-          <Link href="/devotional/issue9">
-            Peace in the Middle of the Storm
-          </Link>
-        </h3>
-
-        <p style={styles.date}>May 10, 2026</p>
-
-        <p>
-          Finding God's peace even during life's most difficult moments.
-        </p>
-      </div>
-
-      {/* Issue 8 */}
-      <div style={styles.archiveBox}>
-        <h3>
-          <Link href="/devotional/issue8">
-            Walking by Faith Daily
-          </Link>
-        </h3>
-
-        <p style={styles.date}>May 4, 2026</p>
-
-        <p>
-          Choosing faith every day even when the path ahead is uncertain.
-        </p>
-      </div>
-
       {/* Issue 7 */}
       <div style={styles.archiveBox}>
         <h3>
           <Link href="/devotional/issue7">
-            God's Grace is Still Enough
+            Peace in the Middle of the Storm
           </Link>
         </h3>
 
-        <p style={styles.date}>April 27, 2026</p>
+        <p style={styles.date}>May 17, 2026</p>
 
         <p>
-          Remembering that God's grace sustains us in every season.
+          Trusting God’s peace even during life’s most difficult moments.
         </p>
       </div>
 
@@ -103,14 +71,14 @@ export default function DevotionalPage() {
       <div style={styles.archiveBox}>
         <h3>
           <Link href="/devotional/issue6">
-            Finding Peace in the Waiting
+            Walking by Faith Each Day
           </Link>
         </h3>
 
-        <p style={styles.date}>April 20, 2026</p>
+        <p style={styles.date}>May 10, 2026</p>
 
         <p>
-          Trusting God while waiting for His perfect timing.
+          Learning to trust God daily, even when the future is unclear.
         </p>
       </div>
 
@@ -125,7 +93,7 @@ export default function DevotionalPage() {
         <p style={styles.date}>April 13, 2026</p>
 
         <p>
-          Learning to trust God's timing even when answers seem delayed.
+          Trusting God’s timing even when answers seem delayed.
         </p>
       </div>
 
@@ -140,7 +108,7 @@ export default function DevotionalPage() {
         <p style={styles.date}>March 30, 2026</p>
 
         <p>
-          Learning to trust God even when life doesn't make sense.
+          Learning to trust God even when life doesn’t make sense.
         </p>
       </div>
 
@@ -185,7 +153,7 @@ export default function DevotionalPage() {
         <p style={styles.date}>March 9, 2026</p>
 
         <p>
-          Understanding God's grace in times of hardship and struggle.
+          Understanding God’s grace in times of hardship and struggle.
         </p>
       </div>
 
@@ -209,16 +177,16 @@ const styles = {
   },
 
   latestBox: {
-    backgroundColor: "#f3f0fa",
+    backgroundColor: "#f3f6fb",
     padding: "25px",
     borderRadius: "12px",
-    border: "1px solid #e0d9f5",
+    border: "1px solid #e0e6f0",
     marginBottom: "30px"
   },
 
   scripture: {
     fontStyle: "italic",
-    marginBottom: "15px"
+    marginBottom: "20px"
   },
 
   divider: {
@@ -227,11 +195,12 @@ const styles = {
 
   archiveBox: {
     marginBottom: "20px",
-    padding: "18px",
+    padding: "15px",
     backgroundColor: "#fafafa",
     borderRadius: "10px",
     border: "1px solid #eee",
-    transition: "all 0.3s ease"
+    transition: "all 0.3s ease",
+    cursor: "pointer"
   },
 
   date: {
