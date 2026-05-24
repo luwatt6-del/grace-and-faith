@@ -3,46 +3,18 @@ import Link from "next/link";
 export default function HomePage() {
   return (
     <div style={styles.container}>
-    
+
       {/* Welcome Section */}
-     <div style={styles.hero}>
-  <h1 style={styles.mainTitle}>Grace & Faith Ministries</h1>
+      <div style={styles.hero}>
+        <h1 style={styles.mainTitle}>
+          Grace & Faith Ministries
+        </h1>
 
-  <img
-    src="/open-bible.png"
-    alt="Open Bible"
-    style={styles.heroImage}
-  />
-</div>
-
-        <section style={styles.section}>
-          <h2>Scripture for the Heart</h2>
-
-          <p>
-            “The Lord is close to the brokenhearted and saves those who are crushed in spirit.”
-            – Psalm 34:18
-          </p>
-
-          <p>
-            Grace & Faith Ministries is a place of hope, restoration, and the
-            transforming power of God's Word.
-          </p>
-
-          <p>
-            We are committed to sharing the love of Christ, strengthening faith,
-            and encouraging lives through prayer, teaching, and spiritual support.
-          </p>
-        </section>
-
-        <div style={styles.verseBox}>
-          <h3>Verse of Hope</h3>
-
-          <p style={{ fontStyle: "italic" }}>
-            “The Lord is close to the brokenhearted and saves those who are crushed in spirit.”
-          </p>
-
-          <p>— Psalm 34:18</p>
-        </div>
+        <img
+          src="/open-bible.png"
+          alt="Open Bible"
+          style={styles.heroImage}
+        />
 
         <p style={styles.tagline}>
           A place to grow in faith, experience God's grace, and find hope
@@ -52,13 +24,42 @@ export default function HomePage() {
         <Link href="/devotional" style={styles.button}>
           Read This Week's Devotional
         </Link>
+      </div>
+
+      {/* Scripture Section */}
+      <section style={styles.section}>
+        <h2>Scripture for the Heart</h2>
+
+        <p>
+          “The Lord is close to the brokenhearted and saves those who are crushed in spirit.”
+          – Psalm 34:18
+        </p>
+
+        <p>
+          Grace & Faith Ministries is a place of hope, restoration, and the
+          transforming power of God's Word.
+        </p>
+
+        <p>
+          We are committed to sharing the love of Christ, strengthening faith,
+          and encouraging lives through prayer, teaching, and spiritual support.
+        </p>
       </section>
+
+      {/* Verse Box */}
+      <div style={styles.verseBox}>
+        <h3>Verse of Hope</h3>
+
+        <p style={{ fontStyle: "italic" }}>
+          “The Lord is close to the brokenhearted and saves those who are crushed in spirit.”
+        </p>
+
+        <p>— Psalm 34:18</p>
+      </div>
 
       {/* Devotional Highlight */}
       <section style={styles.section}>
-       <h2>
-  📖 Weekly Devotional
-</h2>
+        <h2>📖 Weekly Devotional</h2>
 
         <p>
           Each week we focus on a theme rooted in Scripture —
@@ -66,7 +67,9 @@ export default function HomePage() {
           and encouragement for your spiritual journey.
         </p>
 
-        <Link href="/devotional">Visit the Devotional Page →</Link>
+        <Link href="/devotional">
+          Visit the Devotional Page →
+        </Link>
       </section>
 
       {/* Newsletter Section */}
@@ -78,7 +81,9 @@ export default function HomePage() {
           Receive encouragement, devotionals, and updates directly to your inbox.
         </p>
 
-        <Link href="/newsletter">Join the Newsletter →</Link>
+        <Link href="/newsletter">
+          Join the Newsletter →
+        </Link>
       </section>
 
       {/* Shop Section */}
@@ -106,15 +111,23 @@ export default function HomePage() {
 
 const styles = {
   container: {
-  padding: "40px 15px",
-  fontFamily: "Georgia, serif",
-  lineHeight: "1.8",
-  overflowX: "hidden"
-},
+    padding: "40px 15px",
+    fontFamily: "Georgia, serif",
+    lineHeight: "1.8",
+    overflowX: "hidden"
+  },
 
   hero: {
     textAlign: "center",
     marginBottom: "60px"
+  },
+
+  heroImage: {
+    width: "220px",
+    maxWidth: "90%",
+    borderRadius: "14px",
+    marginTop: "25px",
+    boxShadow: "0 4px 12px rgba(0,0,0,0.12)"
   },
 
   section: {
@@ -162,72 +175,66 @@ const styles = {
     fontStyle: "italic",
     color: "#777"
   },
+
   mainTitle: {
-  color: "#7a6fa5",
-  textAlign: "center",
-  marginBottom: "20px"
-},
+    color: "#7a6fa5",
+    textAlign: "center",
+    marginBottom: "20px"
+  },
 
-missionBox: {
-  backgroundColor: "#f3f0fa",
-  padding: "25px",
-  borderRadius: "10px",
-  marginTop: "30px",
-  border: "1px solid #e0d9f5"
-},
+  missionBox: {
+    backgroundColor: "#f3f0fa",
+    padding: "25px",
+    borderRadius: "10px",
+    marginTop: "30px",
+    border: "1px solid #e0d9f5"
+  },
 
-navbar: {
-  display: "flex",
-  justifyContent: "center",
-  gap: "10px",
-  marginBottom: "30px",
-  flexWrap: "wrap"
-},
+  navbar: {
+    display: "flex",
+    justifyContent: "center",
+    gap: "10px",
+    marginBottom: "30px",
+    flexWrap: "wrap"
+  },
 
-navHome: {
-  backgroundColor: "#e6f0fa",
-  padding: "8px 12px",
-  borderRadius: "6px",
-  textDecoration: "none",
-  color: "#333"
-},
+  navHome: {
+    backgroundColor: "#e6f0fa",
+    padding: "8px 12px",
+    borderRadius: "6px",
+    textDecoration: "none",
+    color: "#333"
+  },
 
-navAbout: {
-  backgroundColor: "#f3f0fa",
-  padding: "8px 12px",
-  borderRadius: "6px",
-  textDecoration: "none",
-  color: "#333"
-},
+  navAbout: {
+    backgroundColor: "#f3f0fa",
+    padding: "8px 12px",
+    borderRadius: "6px",
+    textDecoration: "none",
+    color: "#333"
+  },
 
-navDevotional: {
-  backgroundColor: "#fff1e6",
-  padding: "8px 12px",
-  borderRadius: "6px",
-  textDecoration: "none",
-  color: "#333"
-},
+  navDevotional: {
+    backgroundColor: "#fff1e6",
+    padding: "8px 12px",
+    borderRadius: "6px",
+    textDecoration: "none",
+    color: "#333"
+  },
 
-navNewsletter: {
-  backgroundColor: "#e8f5e9",
-  padding: "8px 12px",
-  borderRadius: "6px",
-  textDecoration: "none",
-  color: "#333"
-},
-heroImage: {
-  width: "220px",
-  maxWidth: "90%",
-  borderRadius: "14px",
-  marginTop: "25px",
-  boxShadow: "0 4px 12px rgba(0,0,0,0.12)"
-},
-navContact: {
-  backgroundColor: "#fdecef",
-  padding: "8px 12px",
-  borderRadius: "6px",
-  textDecoration: "none",
-  color: "#333"
-}
+  navNewsletter: {
+    backgroundColor: "#e8f5e9",
+    padding: "8px 12px",
+    borderRadius: "6px",
+    textDecoration: "none",
+    color: "#333"
+  },
+
+  navContact: {
+    backgroundColor: "#fdecef",
+    padding: "8px 12px",
+    borderRadius: "6px",
+    textDecoration: "none",
+    color: "#333"
+  }
 };
-   
