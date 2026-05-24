@@ -219,13 +219,11 @@ navNewsletter: {
   color: "#333"
 },
 heroImage: {
-  width: "100%",
-  height: "auto",
+  width: "220px",
+  maxWidth: "90%",
   borderRadius: "14px",
-  marginTop: "20px",
-  marginBottom: "25px",
-  objectFit: "cover",
-  boxShadow: "0 4px 12px rgba(0,0,0,0.08)"
+  marginTop: "25px",
+  boxShadow: "0 4px 12px rgba(0,0,0,0.12)"
 },
 navContact: {
   backgroundColor: "#fdecef",
