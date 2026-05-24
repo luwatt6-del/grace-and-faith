@@ -7,16 +7,15 @@ export default function HomePage() {
     <div style={styles.container}>
     
       {/* Welcome Section */}
-      <section style={styles.hero}>
-        <h1 style={styles.mainTitle}>Grace & Faith Ministries</h1>
+     <div style={styles.hero}>
+  <h1 style={styles.mainTitle}>Grace & Faith Ministries</h1>
 
-         <Image
-  src="https://images.unsplash.com/photo-1504052434569-70ad5836ab65"
-  alt="Open Bible"
-  width={700}
-  height={400}
-  style={styles.heroImage}
-/>
+  <img
+    src="/open-bible.png"
+    alt="Open Bible"
+    style={styles.heroImage}
+  />
+</div>
 
         <section style={styles.section}>
           <h2>Scripture for the Heart</h2>
