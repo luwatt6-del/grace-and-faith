@@ -7,52 +7,91 @@ export default function DevotionalPage() {
       <h1 style={styles.title}>📖 Weekly Devotional</h1>
 
       {/* 🌟 LATEST DEVOTIONAL */}
-      <div style={styles.latestBox}>
-        <h2>Strength for the Journey</h2>
+     export default function Issue11Page() {
+  return (
+    <div style={styles.container}>
+      <h1>Walking by Faith, Not by Sight</h1>
 
-        <p style={styles.date}>May 24, 2026</p>
+      <p style={styles.date}>May 31, 2026</p>
 
-        <p style={styles.scripture}>
-          “But those who hope in the Lord will renew their strength.”
-          <br />— Isaiah 40:31
-        </p>
+      <p style={styles.scripture}>
+        “For we walk by faith, not by sight.”
+        <br />
+        — 2 Corinthians 5:7
+      </p>
 
-        <p>
-          Life’s journey can sometimes feel exhausting. There are moments
-          when responsibilities, disappointments, and uncertainty leave us
-          feeling weak and overwhelmed.
-        </p>
+      <p>
+        Many of life's greatest challenges come when we cannot see what lies
+        ahead. We want clear answers, detailed plans, and certainty about the
+        future. Yet God often calls us to trust Him one step at a time.
+      </p>
 
-        <p>
-          Yet God never intended for us to carry every burden alone.
-          His strength becomes available to us when our own strength fails.
-        </p>
+      <p>
+        Faith is not the absence of questions; it is the decision to trust God
+        even when the answers have not yet come. It means believing that His
+        hand is guiding us, even when the path seems unclear.
+      </p>
 
-        <p>
-          When we place our hope in Him, He renews our hearts,
-          restores our peace, and gives us courage to continue.
-        </p>
+      <p>
+        When Peter stepped out onto the water, he was able to walk because his
+        eyes were fixed on Jesus. The moment he focused on the wind and waves
+        around him, fear began to take over. The same can happen in our lives.
+        When we focus only on our circumstances, fear grows. But when we focus
+        on Christ, faith grows.
+      </p>
 
-        <p>
-          You may feel tired today, but God is able to sustain you.
-          One step at a time, His grace will carry you through the journey ahead.
-        </p>
+      <p>
+        Today, whatever uncertainty you may be facing, remember that God sees
+        the entire journey while we see only the next step. Trust Him to lead
+        you forward.
+      </p>
 
-        <h3>Prayer</h3>
+      <h3>Prayer</h3>
 
-        <p>
-          Lord, when I feel weary, renew my strength.
-          Help me to place my hope fully in You and trust that
-          You will guide me each step of the way. Amen.
-        </p>
-      </div>
+      <p>
+        Lord, help me to walk by faith and not by sight. When I cannot see the
+        way ahead, remind me that You are already there. Strengthen my trust in
+        You and guide my steps each day. Amen.
+      </p>
+    </div>
+  );
+}
 
-      <hr style={styles.divider} />
+const styles = {
+  container: {
+    maxWidth: "750px",
+    margin: "0 auto",
+    padding: "40px 15px",
+    fontFamily: "Georgia, serif",
+    lineHeight: "1.8"
+  },
 
+  date: {
+    color: "#777",
+    marginBottom: "20px"
+  },
+
+  scripture: {
+    fontStyle: "italic",
+    marginBottom: "20px"
+  }
+};
       {/* 📚 PREVIOUS DEVOTIONALS */}
       <h2>Previous Devotionals</h2>
-
-      {/* Issue 7 */}
+  {/* Issue 8 */]
+  <div style={styles.archiveBox}>
+  <h3>
+    <Link href="/devotional/issue8">
+      Finding Strength in God's Presence
+    </Link>
+  </h3>
+  <p style={styles.date}>May 24, 2026</p>
+  <p>
+    Discovering peace and strength through God's constant presence.
+  </p>
+</div>
+            
+  {/* Issue 7 */}
       <div style={styles.archiveBox}>
         <h3>
           <Link href="/devotional/issue7">
