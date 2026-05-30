@@ -6,27 +6,57 @@ export default function DevotionalPage() {
 
       <h1 style={styles.title}>📖 Weekly Devotional</h1>
 
-  
+      {/* 🌟 LATEST DEVOTIONAL */}
+      <div style={styles.latestBox}>
+        <h2>Walking by Faith, Not by Sight</h2>
+
+        <p style={styles.date}>May 31, 2026</p>
+
+        <p style={styles.scripture}>
+          “For we walk by faith, not by sight.”
+          <br />
+          — 2 Corinthians 5:7
+        </p>
+
+        <p>
+          Many of life's greatest challenges come when we cannot see what lies
+          ahead. God often calls us to trust Him one step at a time.
+        </p>
+
+        <p>
+          Faith is not the absence of questions—it is the decision to trust
+          God even when the answers have not yet come.
+        </p>
+
+        <Link href="/devotional/issue11">
+          Read Full Devotional →
+        </Link>
+      </div>
+
+      <hr style={styles.divider} />
 
       {/* 📚 PREVIOUS DEVOTIONALS */}
       <h2>Previous Devotionals</h2>
-  {/* Issue 10 */}
-  <div style={styles.archiveBox}>
-  <h3>
-    <Link href="/devotional/issue10">
-      Finding Strength in God's Presence
-    </Link>
-  </h3>
-  <p style={styles.date}>May 24, 2026</p>
-  <p>
-    Discovering peace and strength through God's constant presence.
-  </p>
-</div>
-            
-  {/* Issue 7 */}
+
+      {/* Issue 10 */}
       <div style={styles.archiveBox}>
         <h3>
-          <Link href="/devotional/issue7">
+          <Link href="/devotional/issue10">
+            Finding Strength in God's Presence
+          </Link>
+        </h3>
+
+        <p style={styles.date}>May 24, 2026</p>
+
+        <p>
+          Discovering peace and strength through God's constant presence.
+        </p>
+      </div>
+
+      {/* Issue 9 */}
+      <div style={styles.archiveBox}>
+        <h3>
+          <Link href="/devotional/issue9">
             Peace in the Middle of the Storm
           </Link>
         </h3>
@@ -38,10 +68,10 @@ export default function DevotionalPage() {
         </p>
       </div>
 
-      {/* Issue 6 */}
+      {/* Issue 8 */}
       <div style={styles.archiveBox}>
         <h3>
-          <Link href="/devotional/issue6">
+          <Link href="/devotional/issue8">
             Walking by Faith Each Day
           </Link>
         </h3>
@@ -169,9 +199,7 @@ const styles = {
     padding: "15px",
     backgroundColor: "#fafafa",
     borderRadius: "10px",
-    border: "1px solid #eee",
-    transition: "all 0.3s ease",
-    cursor: "pointer"
+    border: "1px solid #eee"
   },
 
   date: {
