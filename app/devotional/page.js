@@ -78,7 +78,7 @@ const styles = {
 };
       {/* 📚 PREVIOUS DEVOTIONALS */}
       <h2>Previous Devotionals</h2>
-  {/* Issue 8 */]
+  {/* Issue 10 */]
   <div style={styles.archiveBox}>
   <h3>
     <Link href="/devotional/issue8">
