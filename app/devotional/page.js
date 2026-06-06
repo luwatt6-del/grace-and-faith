@@ -8,27 +8,28 @@ export default function DevotionalPage() {
 
       {/* 🌟 LATEST DEVOTIONAL */}
       <div style={styles.latestBox}>
-        <h2>Walking by Faith, Not by Sight</h2>
+        <h2>Holding on to God's Unchanging Hand</h2>
 
-        <p style={styles.date}>May 31, 2026</p>
+        <p style={styles.date}>June 7, 2026</p>
 
         <p style={styles.scripture}>
-          “For we walk by faith, not by sight.”
+         "Jesus Christ is the same yesterday and today and forever."
           <br />
-          — 2 Corinthians 5:7
+          — Hebrews 13:8
         </p>
 
         <p>
-          Many of life's greatest challenges come when we cannot see what lies
-          ahead. God often calls us to trust Him one step at a time.
+          Life is full of changes. Seasons come and go, circumstances shift,
+        and sometimes the people and things we depend on are no longer there.
+        In the middle of all that uncertainty, God remains constant.
         </p>
 
         <p>
-          Faith is not the absence of questions—it is the decision to trust
-          God even when the answers have not yet come.
+          His love never changes. His promises never fail. His grace is always
+        sufficient, and His presence never leaves us.
         </p>
 
-        <Link href="/devotional/issue11">
+        <Link href="/devotional/issue12">
           Read Full Devotional →
         </Link>
       </div>
@@ -38,7 +39,21 @@ export default function DevotionalPage() {
       {/* 📚 PREVIOUS DEVOTIONALS */}
       <h2>Previous Devotionals</h2>
 
-      {/* Issue 10 */}
+  {/* Issue 11 */}
+<div style={styles.archiveBox}>
+  <h3>
+    <Link href="/devotional/issue11">
+      Walking by Faith, Not by Sight
+    </Link>
+  </h3>
+
+  <p style={styles.date}>May 31, 2026</p>
+
+  <p>
+    Trusting God to guide our steps even when the future is unclear.
+  </p>
+</div>   
+  {/* Issue 10 */}
       <div style={styles.archiveBox}>
         <h3>
           <Link href="/devotional/issue10">
