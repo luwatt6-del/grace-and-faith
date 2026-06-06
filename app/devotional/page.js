@@ -5,6 +5,11 @@ export default function DevotionalPage() {
     <div style={styles.container}>
 
       <h1 style={styles.title}>📖 Weekly Devotional</h1>
+  <img
+        src="/weekly-devotional.jpg"
+        alt="Weekly Devotional"
+        style={styles.heroImage}
+      />
 
       {/* 🌟 LATEST DEVOTIONAL */}
       <div style={styles.latestBox}>
@@ -191,7 +196,14 @@ const styles = {
     marginBottom: "40px",
     color: "#7a6fa5"
   },
-
+heroImage: {
+  width: "320px",
+  maxWidth: "95%",
+  display: "block",
+  margin: "0 auto 30px auto",
+  borderRadius: "14px",
+  boxShadow: "0 4px 12px rgba(0,0,0,0.12)"
+},
   latestBox: {
     backgroundColor: "#f3f6fb",
     padding: "25px",
