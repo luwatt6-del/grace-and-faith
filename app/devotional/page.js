@@ -4,7 +4,7 @@ export default function DevotionalPage() {
   return (
     <div style={styles.container}>
 
-      <h1 style={styles.title}>📖 Weekly Devotional</h1>
+      <h1 style={styles.title}>Weekly Devotional</h1>
   <img
         src="/weekly-devotional.jpg"
         alt="Weekly Devotional"
