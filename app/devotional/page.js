@@ -6,64 +6,66 @@ export default function DevotionalPage() {
 
       <h1 style={styles.title}>📖 Weekly Devotional</h1>
 
-      {/* 🌟 LATEST DEVOTIONAL */}
-      <div style={styles.latestBox}>
+     {/* 🌟 LATEST DEVOTIONAL */}
 
-        <h2>Remember the Battle is Not Yours, It is the Lord’s</h2>
+<div style={styles.latestBox}>
 
-        <p style={styles.date}>June 21, 2026</p>
+<h2>God the Comforter — Jehovah Nacham</h2>
 
-        <p style={styles.scripture}>
-          “The battle is not yours, but God’s.”
-          <br />
-          — 2 Chronicles 20:15
-        </p>
+<p style={styles.date}>June 28, 2026</p>
 
-        <p>
-          There are moments in life when we face battles that feel bigger than
-          our strength. We carry worries, responsibilities, fears, and
-          situations that seem impossible to overcome.
-        </p>
+<p style={styles.scripture}>
+“Blessed are those who mourn, for they shall be comforted.”
+<br />
+— Matthew 5:4
+</p>
 
-        <p>
-          In those moments, God reminds us that we were never meant to fight
-          every battle alone. When King Jehoshaphat and the people of Judah
-          faced an enemy they could not defeat, God told them to stand firm and
-          trust Him.
-        </p>
+<p>
+Life brings moments when our hearts become heavy. There are seasons of loss,
+disappointment, uncertainty, and challenges that leave us searching for
+strength beyond ourselves.
+</p>
 
-        <p>
-          Sometimes our greatest act of faith is surrendering the situation
-          into God's hands. It does not mean we stop praying, preparing, or
-          doing what is right. It means we recognize that God is greater than
-          the battle before us.
-        </p>
+<p>
+But we are reminded that we serve a God who does not stand far away from our
+pain. He is Jehovah Nacham — the God who comforts, restores, and brings peace
+to the weary soul.
+</p>
 
-        <p>
-          The battles we face may look different — family struggles, health
-          challenges, financial pressure, uncertainty about the future — but
-          God's promise remains the same. He is our defender, our strength, and
-          our refuge.
-        </p>
+<p>
+God’s comfort does not always mean that every situation changes immediately.
+Sometimes His comfort comes through His presence, giving us strength to face
+another day and reminding us that we are never walking alone.
+</p>
 
-        <p>
-          Today, remember that the battle you are facing is not yours to carry
-          alone. Place it before God, trust His timing, and believe that He is
-          already working in ways you cannot see.
-        </p>
+<p>
+Just as a loving parent comforts a child, God draws near to His people. He
+holds us through difficult seasons, heals our broken hearts, and reminds us
+that our struggles do not define our story.
+</p>
+
+<p>
+When we feel overwhelmed, we can bring our burdens to Him. The same God who
+carried others through their darkest moments is still faithful today.
+</p>
+
+<p>
+Whatever you are facing this week, remember this truth: God sees you, God
+knows you, and God is close to you. His comfort is available even in the
+places where life feels uncertain.
+</p>
 
 
-        <h3>Prayer</h3>
+<h3>Prayer</h3>
 
-        <p>
-          Heavenly Father, help me to surrender the battles I cannot control.
-          Remind me that You are fighting for me and that Your strength is
-          greater than every challenge I face. Teach me to trust You, stand in
-          faith, and rest in Your promises. Amen.
-        </p>
+<p>
+Heavenly Father, thank You for being my Comforter and my source of strength.
+When my heart feels heavy, remind me that I am never alone. Help me to rest in
+Your presence, trust Your promises, and receive the comfort that only You can
+give. Amen.
+</p>
 
-      </div>
-
+</div>
 
       <hr style={styles.divider} />
 
