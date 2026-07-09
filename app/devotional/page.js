@@ -144,12 +144,12 @@ const styles = {
 
 
   latestBox: {
-    backgroundColor: "#f3f6fb",
-    padding: "25px",
-    borderRadius: "12px",
-    border: "1px solid "#e0e6f0",
-    marginBottom: "30px"
-  },
+  backgroundColor: "#f3f6fb",
+  padding: "25px",
+  borderRadius: "12px",
+  border: "1px solid #e0e6f0",
+  marginBottom: "30px"
+},
 
 
   scripture: {
