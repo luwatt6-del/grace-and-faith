@@ -81,10 +81,22 @@ export default function DevotionalPage() {
       <hr style={styles.divider} />
 
 
-      {/* 📚 PREVIOUS DEVOTIONALS */}
+     {/* 📚 DEVOTIONAL ARCHIVE */}
 
-      <h2>Previous Devotionals</h2>
+<h2 style={styles.archiveTitle}>
+  📚 Devotional Archive
+</h2>
 
+<p style={styles.archiveIntro}>
+  Browse previous weekly devotionals for encouragement,
+  reflection, and spiritual growth.
+</p>
+
+<p style={styles.archiveVerse}>
+  Jesus Christ is the same yesterday and today and forever.
+  <br />
+  — Hebrews 13:8
+</p>
 <div style={styles.archiveBox}>
   <h3>
     <Link href="/devotional/issue13">
@@ -168,7 +180,25 @@ const styles = {
   divider: {
     margin: "40px 0"
   },
+  archiveTitle: {
+  textAlign: "center",
+  color: "#7a6fa5",
+  marginBottom: "15px"
+},
+archiveIntro: {
+  textAlign: "center",
+  color: "#666",
+  marginBottom: "15px",
+  fontStyle: "italic"
+},
 
+archiveVerse: {
+  textAlign: "center",
+  color: "#7a6fa5",
+  marginBottom: "30px",
+  fontStyle: "italic",
+  lineHeight: "1.7"
+},
 
   archiveBox: {
     marginBottom: "20px",
