@@ -87,4 +87,19 @@ const styles = {
   },
 
   date: {
-   
+    fontSize: "14px",
+    color: "#777",
+    textAlign: "center",
+    marginBottom: "20px",
+  },
+
+  scripture: {
+    fontStyle: "italic",
+    textAlign: "center",
+    marginBottom: "25px",
+  },
+
+  divider: {
+    margin: "40px 0",
+  },
+};
